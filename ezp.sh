@@ -23,11 +23,11 @@ uci commit
 cp passwallx.sh /sbin/passwall
 
 ##FirstReform
-rm -f /tmp/luci-theme-argon_2.3_all.ipk  wget -O /tmp/luci-theme-argon_2.3_all.ipk https://github.com/peditx/PeDitXrt-rebirth/raw/main/apps/luci-theme-argon_2.3_all.ipk
-opkg install /tmp/luci-theme-argon_2.3_all.ipk
+rm -f luci-theme-argon_2.3_all.ipk  wget -O /tmp/luci-theme-argon_2.3_all.ipk https://github.com/peditx/PeDitXrt-rebirth/raw/main/apps/luci-theme-argon_2.3_all.ipk
+opkg install luci-theme-argon_2.3_all.ipk
 rm -f luci-theme-argon_2.3_all.ipk
-rm -f /tmp/luci-app-argon-config_0.9_all.ipk wget -O /tmp/luci-app-argon-config_0.9_all.ipk https://github.com/peditx/PeDitXrt-rebirth/raw/main/apps/luci-app-argon-config_0.9_all.ipk
-opkg install /tmp/luci-app-argon-config_0.9_all.ipk
+rm -f luci-app-argon-config_0.9_all.ipk wget -O /tmp/luci-app-argon-config_0.9_all.ipk https://github.com/peditx/PeDitXrt-rebirth/raw/main/apps/luci-app-argon-config_0.9_all.ipk
+opkg install luci-app-argon-config_0.9_all.ipk
 rm -f luci-app-argon-config_0.9_all.ipk
 
 ##Scanning
