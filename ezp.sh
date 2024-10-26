@@ -36,7 +36,7 @@ opkg install "$theme_file"
 opkg install "$config_file"
 
 rm -f "$theme_file" "$config_file"
-
+clear
 ##Scanning
 
 . /etc/openwrt_release
