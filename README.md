@@ -3,7 +3,7 @@
 
 [**English**](README.md) | [**فارسی**](README_fa.md)
 
-### What is the EZpasswall script?
+### What is the EZPasswall script?
 
   This script allows you to easily optimize your OpenWrt device with a modern and simple interface, including support for protocols like OpenVPN, Xray, V2Ray, WireGuard, Cloudflare Warp, and more. You can also install Passwall 1 and Passwall 2 (either separately or both) and enjoy a stable internet connection with segmented and continuous traffic.
   This script will be continuously improved over time.
