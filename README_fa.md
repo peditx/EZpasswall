@@ -4,6 +4,13 @@
 [**English**](README.md) | [**فارسی**](README_fa.md)
 
 
+### اسکریپت EZpasswall چیست؟
+
+  این اسکریپت به شما اجازه می‌دهد که با یک دستور ساده، دستگاه OpenWrt را با ظاهری مدرن و ساده به همراه پروتکل‌های OpenVPN، Xray، V2Ray، WireGuard، Cloudflare Warp و ... بهینه کنید. همچنین می‌توانید نرم‌افزار Passwall 1 و Passwall 2 (چه به صورت تکی و چه هردو) را نصب کنید و از داشتن یک اینترنت پایدار با ترافیک تفکیک‌شده و مستمر لذت ببرید. 
+  این اسکریپت به مرور تکمیل‌تر خواهد شد.
+
+  دوستدار شما،
+[PeDitX](https://github.com/peditx)
 
 ## چگونه EZPasswall را نصب کنیم
 ![نصب تصویر](https://github.com/peditx/iranIPS/blob/1f05bc52dae7b573742e0bcccf8430c8a46b94e4/.files/lowspc/main/photo_2024-10-27_21-15-16.jpg?raw=true)
