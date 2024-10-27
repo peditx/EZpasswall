@@ -32,10 +32,9 @@ config_file="luci-app-argon-config_0.9_all.ipk"
 wget -O "$theme_file" "$theme_url"
 wget -O "$config_file" "$config_url"
 
-sleep 2
 opkg install "$theme_file"
 opkg install "$config_file"
-sleep2
+sleep 2
 
 rm -f "$theme_file" "$config_file"
 sleep 1
