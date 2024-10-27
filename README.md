@@ -96,4 +96,4 @@ rm -f ezp.sh && wget https://github.com/peditx/EZpasswall/raw/refs/heads/main/ez
 
 
 
-[peditx](https://github.com/peditx) © 2024
+[PeDitX](https://github.com/peditx) © 2024
