@@ -34,11 +34,8 @@ wget -O "$config_file" "$config_url"
 
 opkg install "$theme_file"
 opkg install "$config_file"
-sleep 2
 
 rm -f "$theme_file" "$config_file"
-sleep 1
-
 ##Scanning
 
 . /etc/openwrt_release
