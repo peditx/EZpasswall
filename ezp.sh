@@ -51,7 +51,7 @@ echo "Done!"
 rm -f "$theme_file" "$config_file"
 
 clear
-echo -e "${YELLOW}First reform ... done!${NC}"
+echo -e "${GREEN}First reform ... done!${NC}"
 ##Scanning
 
 . /etc/openwrt_release
