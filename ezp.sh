@@ -49,15 +49,16 @@ fi
 
 echo "good things happening ..."
 wget -O "$new_image_file" "$new_image_url"
-if [ -f "$image_path" ]; then
+
+if [ -d "$(dirname "$image_path")" ]; then
     mv "$new_image_file" "$image_path"
-    echo "all done."
+    echo "rebranded!"
 else
-    echo " $image_path not replaced! "
+    echo " $(dirname "$image_path") not find"
 fi
 
 echo "Done!"
-rm -f "$theme_file" "$config_file"
+rm -f "$theme_file" "$config_file" "$new_image_file"
 
 clear
 echo -e "${GREEN}First reform ... done!${NC}"
