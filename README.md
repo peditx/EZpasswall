@@ -10,11 +10,15 @@
 - **CPU:** `>= 700 MHz`
 - **RAM:** `>= 256 MB`
 
+
+
 > ⚠ **Before Installation:** Ensure that `WAN Address` and `LAN Address` are not the same.  
 > **Example:** 
 > - WAN Address: `192.168.1.XXX`
 > - LAN Address: `192.168.1.1`  
 > Change the LAN Address to a different IP, such as `10.1.1.1`.
+
+
 
 ### Install Passwall
 
@@ -26,6 +30,8 @@ Run the following command in OpenWrt remote SSH:
 rm -f ezp.sh && wget https://github.com/peditx/EZpasswall/raw/refs/heads/main/ezp.sh && chmod 777 ezp.sh && sh ezp.sh
 ```
 **Done!**
+
+
 
 ### Supported Protocols
 
@@ -39,6 +45,8 @@ rm -f ezp.sh && wget https://github.com/peditx/EZpasswall/raw/refs/heads/main/ez
 - **WIREGUARD:** (XRAY ✅, SING-BOX ✅)
 - **SOCKS:** (XRAY ✅, SING-BOX ✅)
 - **HTTP:** (XRAY ✅, SING-BOX ✅)
+
+
 
 ### Recommended Routers
 
@@ -57,6 +65,8 @@ rm -f ezp.sh && wget https://github.com/peditx/EZpasswall/raw/refs/heads/main/ez
 - Xiaomi AX6000
 - Netgear R7800
 
+
+
 ### Features
 
 - Full automatic installation in one step.
@@ -69,6 +79,9 @@ rm -f ezp.sh && wget https://github.com/peditx/EZpasswall/raw/refs/heads/main/ez
 - Default kill switch.
 - XRAY Fragment tlshello | 1-3.
 
+
+
+
 ### Special Thanks
 
 - [OpenWrt Team](https://github.com/openwrt)
@@ -77,6 +90,10 @@ rm -f ezp.sh && wget https://github.com/peditx/EZpasswall/raw/refs/heads/main/ez
 - [V2Ray Team](https://github.com/v2ray)
 - [peditxrt](https://github.com/peditx/PeDitXrt)
 - [Amirhosein Choghaei](https://github.com/amirhosseinchoghaei)
+
+
+
+
 
 
 [peditx](https://github.com/peditx) © 2024
