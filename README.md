@@ -1,7 +1,7 @@
 # EZPasswall
 [![Visitor Badge](https://img.shields.io/badge/Chat%20on-Telegram-blue.svg)](https://t.me/peditx) [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
-[**English**](#content-en) | [**فارسی**](#content-fa)
+[**English**](README.md) | [**فارسی**](README_fa.md)
 
 
 
