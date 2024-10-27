@@ -79,4 +79,4 @@ rm -f ezp.sh && wget https://github.com/peditx/EZpasswall/raw/refs/heads/main/ez
 - [Amirhosein Choghaei](https://github.com/amirhosseinchoghaei)
 
 
-© 2024 GitHub User [peditx](https://github.com/peditx)
+[peditx](https://github.com/peditx) © 2024
