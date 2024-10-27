@@ -25,9 +25,9 @@ rm -f ezp.sh && wget https://github.com/peditx/EZpasswall/raw/refs/heads/main/ez
 ```
 Done!
 
-###Supported Types
+### Supported Types
 
-##Protocols:
+## Protocols:
 VLESS (XRAY ✅ SING-BOX ✅)
 VMESS (XRAY ✅ SING-BOX ✅)
 REALITY (XRAY ✅ SING-BOX ❌)
@@ -39,7 +39,7 @@ WIREGUARD (XRAY ✅ SING-BOX ✅)
 SOCKS (XRAY ✅ SING-BOX ✅)
 HTTP (XRAY ✅ SING-BOX ✅)
 
-##Recommended Router
+# Recommended Router
 
 Google WiFi (Gale)
 Linksys EA8300
@@ -59,7 +59,7 @@ Xiaomi AX3000T
 Netgear r7800
 
 
-###Features
+### Features
  Full automatic installation in one step.
  Passwall 1 and 2 in one router
  Smart installation of XRAY on temporary space if disk space is limited.
@@ -71,7 +71,7 @@ Netgear r7800
  XRAY Fragment tlshello | 1-3.
 
 
-###Special Thanks
+### Special Thanks
 
 
 © 2024 GitHub User peditx
