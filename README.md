@@ -1,6 +1,11 @@
 # EZPasswall
 [![Visitor Badge](https://img.shields.io/badge/Chat%20on-Telegram-blue.svg)](https://t.me/peditx) [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
+## Languae
+## زبان
+
+[**English**](#content-en) | [**فارسی**](#content-fa)
+
 ## How to Install EZPasswall
 
 ![Installation Image](https://github.com/peditx/iranIPS/blob/ffce5c185aecd61f1d92d100593ceecb2b905235/.files/lowspc/main/photo_2024-10-27_20-03-44.jpg?raw=true)
