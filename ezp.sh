@@ -25,19 +25,33 @@ cp passwallx.sh /sbin/passwall
 ##FirstReform
 theme_url="https://github.com/peditx/PeDitXrt-rebirth/raw/main/apps/luci-theme-argon_2.3_all.ipk"
 config_url="https://github.com/peditx/PeDitXrt-rebirth/raw/main/apps/luci-app-argon-config_0.9_all.ipk"
-opkg update
-opkg install curl luci-compat
 
 theme_file="luci-theme-argon_2.3_all.ipk"
 config_file="luci-app-argon-config_0.9_all.ipk"
 
+opkg update
+opkg install curl luci-compat
+
+
+
 wget -O "$theme_file" "$theme_url"
 wget -O "$config_file" "$config_url"
 
-opkg install "$theme_file"
-opkg install "$config_file"
 
+if ! opkg install "$theme_file"; then
+    opkg install "$theme_file" --force-depends
+fi
+
+if ! opkg install "$config_file"; then
+    opkg install "$config_file" --force-depends
+fi
+
+
+echo "در حال پاک کردن فایل‌های دانلود‌شده..."
 rm -f "$theme_file" "$config_file"
+
+clear
+echo "First reforme ... done!"
 ##Scanning
 
 . /etc/openwrt_release
