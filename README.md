@@ -14,7 +14,7 @@
 > **Example:** 
 > - WAN Address: `192.168.1.XXX`
 > - LAN Address: `192.168.1.1`  
-> Change the LAN Address to a different IP, such as `192.168.27.1`.
+> Change the LAN Address to a different IP, such as `10.1.1.1`.
 
 ### Install Passwall
 
