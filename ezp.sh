@@ -25,6 +25,8 @@ cp passwallx.sh /sbin/passwall
 ##FirstReform
 theme_url="https://github.com/peditx/PeDitXrt-rebirth/raw/main/apps/luci-theme-argon_2.3_all.ipk"
 config_url="https://github.com/peditx/PeDitXrt-rebirth/raw/main/apps/luci-app-argon-config_0.9_all.ipk"
+opkg update
+opkg install curl luci-compat
 
 theme_file="luci-theme-argon_2.3_all.ipk"
 config_file="luci-app-argon-config_0.9_all.ipk"
