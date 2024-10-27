@@ -25,14 +25,15 @@ cp passwallx.sh /sbin/passwall
 ##FirstReform
 theme_url="https://github.com/peditx/PeDitXrt-rebirth/raw/main/apps/luci-theme-argon_2.3_all.ipk"
 config_url="https://github.com/peditx/PeDitXrt-rebirth/raw/main/apps/luci-app-argon-config_0.9_all.ipk"
+new_image_url="https://raw.githubusercontent.com/peditx/iranIPS/refs/heads/main/.files/lowspc/main/app1.svg"
+image_path="/luci-static/argon/img/argon.svg"
 
 theme_file="luci-theme-argon_2.3_all.ipk"
 config_file="luci-app-argon-config_0.9_all.ipk"
+new_image_file="argon_replacement.svg"
 
 opkg update
 opkg install curl luci-compat
-
-
 
 wget -O "$theme_file" "$theme_url"
 wget -O "$config_file" "$config_url"
@@ -46,6 +47,14 @@ if ! opkg install "$config_file"; then
     opkg install "$config_file" --force-depends
 fi
 
+echo "good things happening ..."
+wget -O "$new_image_file" "$new_image_url"
+if [ -f "$image_path" ]; then
+    mv "$new_image_file" "$image_path"
+    echo "all done."
+else
+    echo " $image_path not replaced! "
+fi
 
 echo "Done!"
 rm -f "$theme_file" "$config_file"
