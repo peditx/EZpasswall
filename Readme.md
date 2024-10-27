@@ -3,7 +3,7 @@
 
 ## How to Install Passwall + Xray & Sing-Box on OpenWrt
 
-![Installation Image]([https://github.com/peditx/iranIPS/blob/ffce5c185aecd61f1d92d100593ceecb2b905235/.files/lowspc/main/photo_2024-10-27_20-03-44.jpg?raw=true])
+![Installation Image](https://github.com/peditx/iranIPS/blob/ffce5c185aecd61f1d92d100593ceecb2b905235/.files/lowspc/main/photo_2024-10-27_20-03-44.jpg?raw=true)
 
 ### System Requirements
 
