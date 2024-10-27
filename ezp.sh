@@ -41,8 +41,9 @@ opkg update
 opkg install curl luci-compat
 
 # Download files
-wget -O "$theme_file" "$theme_url"
-wget -O "$config_file" "$config_url"
+echo "Downloading theme and config files..."
+wget -O "$theme_file" "$theme_url" || { echo "Failed to download theme file"; exit 1; }
+wget -O "$config_file" "$config_url" || { echo "Failed to download config file"; exit 1; }
 
 # Install packages with architecture compatibility check
 if ! opkg install "$theme_file"; then
@@ -54,28 +55,26 @@ if ! opkg install "$config_file"; then
 fi
 
 # Download new images
-echo "good things happening ..."
-wget -O "$new_svg_file" "$new_svg_url"
-wget -O "$new_bg_file" "$new_bg_url"
+echo "Downloading new images..."
+wget -O "$new_svg_file" "$new_svg_url" || { echo "Failed to download SVG file"; exit 1; }
+wget -O "$new_bg_file" "$new_bg_url" || { echo "Failed to download background image"; exit 1; }
 
 # Replace argon.svg
 if [ -d "$(dirname "$svg_path")" ]; then
-    mv "$new_svg_file" "$svg_path"
-    echo "argon.svg rebranded!"
+    mv "$new_svg_file" "$svg_path" && echo "argon.svg rebranded!" || echo "Failed to replace argon.svg"
 else
     echo "$(dirname "$svg_path") not found"
 fi
 
 # Replace bg1.jpg
 if [ -d "$(dirname "$bg_path")" ]; then
-    mv "$new_bg_file" "$bg_path"
-    echo "bg1.jpg rebranded!"
+    mv "$new_bg_file" "$bg_path" && echo "bg1.jpg rebranded!" || echo "Failed to replace bg1.jpg"
 else
     echo "$(dirname "$bg_path") not found"
 fi
 
 # Clean up downloaded files
-echo "Done!"
+echo "Cleaning up downloaded files..."
 rm -f "$theme_file" "$config_file" "$new_svg_file" "$new_bg_file"
 
 clear
