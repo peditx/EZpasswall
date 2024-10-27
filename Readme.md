@@ -41,34 +41,34 @@ HTTP (XRAY ✅ SING-BOX ✅)
 
 # Recommended Router
 
-Google WiFi (Gale)
-Linksys EA8300
-Xiaomi AX3000T: More Info
-Tested On
-Xiaomi 4a Gigabit
-TP-Link C6 v3
-Mikrotik Hap ac2
-GL.iNet AR300M (NOR)
-Linksys ea7500 (v1-v2)
-Linksys ea8100 (v1-v2)
-ASUS RT-N66U
-Xiaomi AX3600
-Xiaomi AX3200
-Xiaomi AX6000
-Xiaomi AX3000T
-Netgear r7800
+  Google WiFi (Gale)
+  Linksys EA8300
+  Xiaomi AX3000T: More Info
+  Tested On
+  Xiaomi 4a Gigabit
+  TP-Link C6 v3
+  Mikrotik Hap ac2
+  GL.iNet AR300M (NOR)
+  Linksys ea7500 (v1-v2)
+  Linksys ea8100 (v1-v2)
+  ASUS RT-N66U
+  Xiaomi AX3600
+  Xiaomi AX3200
+  Xiaomi AX6000
+  Xiaomi AX3000T
+  Netgear r7800
 
 
 ### Features
- Full automatic installation in one step.
- Passwall 1 and 2 in one router
- Smart installation of XRAY on temporary space if disk space is limited.
- Direct Iran IP & domain traffic (100%).
- Improved performance.
- New Theme and logo design.
- Fixed server WARP connection.
- Default kill switch.
- XRAY Fragment tlshello | 1-3.
+   Full automatic installation in one step.
+   Passwall 1 and 2 in one router
+   Smart installation of XRAY on temporary space if disk space is limited.
+   Direct Iran IP & domain traffic (100%).
+   Improved performance.
+   New Theme and logo design.
+   Fixed server WARP connection.
+   Default kill switch.
+   XRAY Fragment tlshello | 1-3.
 
 
 ### Special Thanks
