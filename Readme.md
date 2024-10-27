@@ -1,8 +1,4 @@
 در زیر نسخه بهینه‌شده‌ی فایل README.md به زبان انگلیسی قرار دارد. این نسخه با تمرکز بر وضوح و ساده‌سازی اطلاعات طراحی شده است:
-
-README.md
-markdown
-Copy code
 # EZPasswall
 [![visitor badge](https://img.shields.io/badge/Chat%20on-Telegram-blue.svg)](https://t.me/peditx) [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
