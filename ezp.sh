@@ -47,11 +47,11 @@ if ! opkg install "$config_file"; then
 fi
 
 
-echo "در حال پاک کردن فایل‌های دانلود‌شده..."
+echo "Done!"
 rm -f "$theme_file" "$config_file"
 
 clear
-echo "First reforme ... done!"
+echo "${YELLOW}First reform ... done!${NC}"
 ##Scanning
 
 . /etc/openwrt_release
