@@ -38,10 +38,13 @@ new_bg_file="bg1_replacement.jpg"
 
 # Update repositories and install dependencies
 opkg update
-opkg install curl luci-compat
+opkg install curl luci-compat 
 clear
 opkg install luci-lib-ipkg
 sleep 2
+clear
+opkg install luci-mod-dashboard
+echo -e "${GREEN}Dashboard Installed ✅ OK${NC}"
 clear
 
 # Download and install theme and config files
