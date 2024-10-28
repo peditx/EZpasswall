@@ -34,7 +34,7 @@ theme_file="luci-theme-argon_2.3_all.ipk"
 config_file="luci-app-argon-config_0.9_all.ipk"
 new_svg_file="argon_replacement.svg"
 new_bg_file="bg1_replacement.jpg"
-THEME_PATH="/www/luci-static/argon/index.html"
+THEME_PATH="/www/index.html"
 
 # Update repositories and install dependencies
 opkg update
