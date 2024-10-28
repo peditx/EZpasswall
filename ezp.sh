@@ -38,7 +38,7 @@ new_bg_file="bg1_replacement.jpg"
 
 # Update repositories and install dependencies
 opkg update
-opkg install curl luci-compat
+opkg install curl luci-compat luci-lib-ipkg
 clear
 
 # Download and install theme and config files
