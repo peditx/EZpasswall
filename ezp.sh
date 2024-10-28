@@ -36,9 +36,6 @@ config_file="luci-app-argon-config_0.9_all.ipk"
 new_svg_file="argon_replacement.svg"
 new_bg_file="bg1_replacement.jpg"
 
-CHECK_MARK="\u2714"
-CROSS_MARK="\u2716"
-
 # Update repositories and install dependencies
 opkg update
 opkg install curl luci-compat
@@ -93,27 +90,27 @@ echo -e "${GREEN}First reform ... done!${NC}"
 # Verify installation and replacements
 echo -e "\nVerification Results:"
 if opkg list-installed | grep -q "luci-theme-argon"; then
-    echo -e "${GREEN}Theme installed successfully ${CHECK_MARK} OK${NC}"
+    echo -e "${GREEN}Theme installed successfully ✅ OK${NC}"
 else
-    echo -e "${RED}Theme installation failed ${CROSS_MARK} FAILED${NC}"
+    echo -e "${RED}Theme installation failed ❌ FAILED${NC}"
 fi
 
 if opkg list-installed | grep -q "luci-app-argon-config"; then
-    echo -e "${GREEN}Config installed successfully ${CHECK_MARK} OK${NC}"
+    echo -e "${GREEN}Config installed successfully ✅ OK${NC}"
 else
-    echo -e "${RED}Config installation failed ${CROSS_MARK} FAILED${NC}"
+    echo -e "${RED}Config installation failed ❌ FAILED${NC}"
 fi
 
 if [ -f "$svg_path" ]; then
-    echo -e "${GREEN}SVG image replaced successfully ${CHECK_MARK} OK${NC}"
+    echo -e "${GREEN}SVG image replaced successfully ✅ OK${NC}"
 else
-    echo -e "${RED}SVG image replacement failed ${CROSS_MARK} FAILED${NC}"
+    echo -e "${RED}SVG image replacement failed ❌ FAILED${NC}"
 fi
 
 if [ -f "$bg_path" ]; then
-    echo -e "${GREEN}Background image replaced successfully ${CHECK_MARK} OK${NC}"
+    echo -e "${GREEN}Background image replaced successfully ✅ OK${NC}"
 else
-    echo -e "${RED}Background image replacement failed ${CROSS_MARK} FAILED${NC}"
+    echo -e "${RED}Background image replacement failed ❌ FAILED${NC}"
 fi
 
 ##Scanning
