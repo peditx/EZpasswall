@@ -169,12 +169,12 @@ sleep 1
 
 fi
 
-echo -e "${YELLOW} 1.${NC} ${CYAN} Install Passwall 1 ${NC}"
-echo -e "${YELLOW} 2.${NC} ${CYAN} Install Passwall 2 ${NC}"
-echo -e "${YELLOW} 3.${NC} ${CYAN} Install Passwall 1 + 2 ${NC}"
-echo -e "${YELLOW} 6.${NC} ${YELLOW} Eazy Exroot Openwrt ${NC}"
+echo -e "${GREEN} 1.${NC} ${CYAN} Install Passwall 1 ${NC}"
+echo -e "${GREEN} 2.${NC} ${CYAN} Install Passwall 2 ${NC}"
+echo -e "${GREEN} 3.${NC} ${BLUE} Install Passwall 1 + 2 ${NC}"
+echo -e "${GREEN} 6.${NC} ${MAGENTA} Easy Exroot For routers that have USB ${NC}"
 echo -e "${YELLOW} 9.${NC} ${YELLOW} CloudFlare IP Scanner ${NC}"
-echo -e "${YELLOW} 0.${NC} ${RED} EXIT ${NC}"
+echo -e "${REF} 0.${NC} ${RED} EXIT ${NC}"
 echo ""
 
 
@@ -252,7 +252,7 @@ opkg install luci-app-passwall2
 
 6)
         
-echo "Eazy Exroot Openwrt ..."
+echo "Easy Exroot Openwrt ..."
 
 opkg update
 
