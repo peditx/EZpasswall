@@ -172,8 +172,9 @@ fi
 echo -e "${YELLOW} 1.${NC} ${CYAN} Install Passwall 1 ${NC}"
 echo -e "${YELLOW} 2.${NC} ${CYAN} Install Passwall 2 ${NC}"
 echo -e "${YELLOW} 3.${NC} ${CYAN} Install Passwall 1 + 2 ${NC}"
+echo -e "${YELLOW} 6.${NC} ${YELLOW} Eazy Exroot Openwrt ${NC}"
 echo -e "${YELLOW} 9.${NC} ${YELLOW} CloudFlare IP Scanner ${NC}"
-echo -e "${YELLOW} 6.${NC} ${RED} EXIT ${NC}"
+echo -e "${YELLOW} 0.${NC} ${RED} EXIT ${NC}"
 echo ""
 
 
@@ -241,13 +242,28 @@ opkg install luci-app-passwall2
 ;;
 
 
-6)
+0)
             echo ""
             echo -e "${GREEN}Exiting...${NC}"
             exit 0
 
            read -s -n 1
            ;;
+
+6)
+        
+echo "Eazy Exroot Openwrt ..."
+
+opkg update
+
+opkg install bash
+
+opkg install curl
+
+curl -ksSL https://github.com/peditx/ezexroot/raw/refs/heads/main/ezexroot.sh -o ezexroot.sh && bash ezexroot.sh
+ 
+;;
+
 
  3)
 
