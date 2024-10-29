@@ -252,7 +252,7 @@ opkg install luci-app-passwall2
 
 6)
         
-echo "Easy Exroot Openwrt ..."
+echo "Easy Exroot Openwrt For routers that have USB ..."
 
 opkg update
 
