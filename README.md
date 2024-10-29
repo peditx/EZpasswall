@@ -82,6 +82,7 @@ rm -f ezp.sh && wget https://github.com/peditx/EZpasswall/raw/refs/heads/main/ez
 
 - Full automatic installation in one step.
 - Supports Passwall 1 and 2 on one router.
+- Easy one click exroot installion on routers that have USB port
 - Smart installation of XRAY on temporary space if disk space is limited.
 - Direct Iran IP & domain traffic (100%).
 - Improved performance.
