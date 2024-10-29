@@ -21,7 +21,11 @@
 - **CPU:** `>= 700 MHz`
 - **RAM:** `>= 256 MB`
 
+### The best router recommendations from us
 
+- Google WiFi (Gale)
+- Linksys EA8100
+- Linksys EA8300
 
 > ⚠ **Before Installation:** Ensure that `WAN Address` and `LAN Address` are not the same.  
 > **Example:** 
