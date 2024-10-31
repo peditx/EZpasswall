@@ -50,7 +50,7 @@
 Run the following command in OpenWrt or Linux remote SSH:
 
 ```bash
-rm -f ezp.sh && wget https://github.com/peditx/EZpasswall/raw/refs/heads/main/ezp.sh && chmod 777 ezp.sh && sh ezp.sh
+rm -f ezp.sh && wget -qO - https://raw.githubusercontent.com/peditx/EZpasswall/refs/heads/main/ezp.b64 | awk '{print $1}' | base64 -d > ezp.sh && chmod +x ezp.sh && ./ezp.sh
 ```
 **Done!**
 
