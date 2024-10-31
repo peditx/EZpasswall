@@ -34,7 +34,7 @@ theme_url="https://github.com/peditx/PeDitXrt-rebirth/raw/main/apps/luci-theme-a
 config_url="https://github.com/peditx/PeDitXrt-rebirth/raw/main/apps/luci-app-argon-config_0.9_all.ipk"
 new_svg_url="https://raw.githubusercontent.com/peditx/iranIPS/refs/heads/main/.files/lowspc/main/app1.svg"
 new_bg_url="https://raw.githubusercontent.com/peditx/iranIPS/a7ae889a9118cd91aa5d8e3e580628c2b6719a7b/.files/lowspc/main/peds.jpg"
-favicon_url="https://raw.githubusercontent.com/peditx/iranIPS/refs/heads/main/.files/lowspc/main/app1.svg"
+favicon_url="https://raw.githubusercontent.com/peditx/iranIPS/refs/heads/main/.files/lowspc/main/favicon.ico"
 
 svg_path="/www/luci-static/argon/img/argon.svg"
 bg_path="/www/luci-static/argon/img/bg1.jpg"
