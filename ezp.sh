@@ -180,6 +180,7 @@ fi
 echo -e "${GREEN} 1.${NC} ${CYAN} Install Passwall 1 ${NC}"
 echo -e "${GREEN} 2.${NC} ${CYAN} Install Passwall 2 ${NC}"
 echo -e "${GREEN} 3.${NC} ${BLUE} Install Passwall 1 + 2 ${NC}"
+echo -e "${GREEN} 11.${NC} ${BLUE} Install Passwall 2 + Temporary core ${NC}"
 echo -e "${GREEN} 6.${NC} ${MAGENTA} Easy Exroot For routers that have USB ${NC}"
 echo -e "${GREEN} 7.${NC} ${RED} Extra tools ${NC}"
 echo -e "${GREEN} 8.${NC} ${CYAN} X86Tools (To convert Linux x86 to router) ${NC}"
@@ -303,6 +304,16 @@ rm -f passwalldue.sh && wget https://github.com/peditx/iranIPS/raw/refs/heads/ma
 
 ;;
 
+11)
+
+echo "Installing Passwall 2 With Temporary Core ..."
+
+sleep 2
+
+rm -f tempcore.sh && wget https://raw.githubusercontent.com/peditx/iranIPS/refs/heads/main/.files/core/tempcore.sh && chmod 777 tempcore.sh && sh tempcore.sh
+
+
+;;
 
  *)
            echo "  Invalid option Selected ! "
