@@ -18,7 +18,7 @@
 ![نصب تصویر](https://github.com/peditx/iranIPS/blob/main/.files/lowspc/main/photo_2024-10-29_17-52-17.jpg?raw=true)
 ![نصب تصویر](https://github.com/peditx/iranIPS/blob/main/.files/lowspc/main/photo_2024-10-31_04-39-14.jpg?raw=true)
 
-### الزامات سیستم برای روتر
+### حدافل سیستم مورد نیاز برای روتر
 
 - **سی پی یو:** `>= 700 MHz`
 - **رم:** `>= 256 MB`
@@ -28,6 +28,12 @@
 - Google WiFi (Gale)
 - Linksys EA8100
 - Linksys EA8300
+
+
+### حدافل سیستم مورد نیاز برای کامپیوتر
+- سی پی یو:** `amd یا اینتل`
+- رم :** `۲ گیگابایت`
+
 
 
 > ⚠  **قبل از نصب:** اطمینان حاصل کنید که `آدرس WAN` و `آدرس LAN` یکسان نیستند.  
