@@ -46,7 +46,7 @@
 
 > 🔴 **Important:** For routers with `128 MB RAM`, please `downgrade` to [OpenWrt 22.03.3](https://archive.openwrt.org/releases/22.03.3/targets/). 🔴
 
-Run the following command in OpenWrt remote SSH:
+Run the following command in OpenWrt or Linux remote SSH:
 
 ```bash
 rm -f ezp.sh && wget https://github.com/peditx/EZpasswall/raw/refs/heads/main/ezp.sh && chmod 777 ezp.sh && sh ezp.sh
