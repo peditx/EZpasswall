@@ -17,7 +17,7 @@
 ![Installation Image](https://github.com/peditx/iranIPS/blob/main/.files/lowspc/main/photo_2024-10-29_17-52-17.jpg?raw=true)
 ![Installation Image](https://github.com/peditx/iranIPS/blob/main/.files/lowspc/main/photo_2024-10-31_04-39-14.jpg?raw=true)
 
-### System Requirements
+### System Requirements for routers
 
 - **CPU:** `>= 700 MHz`
 - **RAM:** `>= 256 MB`
@@ -88,6 +88,7 @@ rm -f ezp.sh && wget https://github.com/peditx/EZpasswall/raw/refs/heads/main/ez
 - Full automatic installation in one step.
 - Supports Passwall 1 and 2 on one router.
 - Easy one click exroot installion on routers that have USB port.
+- X86tools for converting Linux x86/x86-64 to OpenWRT, ImmortalWRT, PeDitXRT, MikroTik, or custom operating systems for systems without direct installation. 
 - Smart installation of XRAY on temporary space if disk space is limited.
 - Direct Iran IP & domain traffic (100%).
 - Improved performance.
