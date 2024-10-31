@@ -276,7 +276,7 @@ curl -ksSL https://github.com/peditx/ezexroot/raw/refs/heads/main/ezexroot.sh -o
 
 7)
         
-echo "Tools (To convert Linux x86 to router) ..."
+echo "Extra Tools (Wifi settings and cleanup memory) ..."
 
 curl -ksSL https://raw.githubusercontent.com/peditx/iranIPS/refs/heads/main/.files/extras/extra.sh -o extra.sh && bash extra.sh
  
