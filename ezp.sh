@@ -27,7 +27,7 @@ uci commit
 
 /sbin/reload_config
 
-cp passwallx.sh /sbin/passwall
+cp ezp.sh /sbin/passwall
 
 # First Reform
 theme_url="https://github.com/peditx/PeDitXrt-rebirth/raw/main/apps/luci-theme-argon_2.3_all.ipk"
