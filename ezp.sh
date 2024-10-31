@@ -180,7 +180,7 @@ fi
 echo -e "${GREEN} 1.${NC} ${CYAN} Install Passwall 1 ${NC}"
 echo -e "${GREEN} 2.${NC} ${CYAN} Install Passwall 2 ${NC}"
 echo -e "${GREEN} 3.${NC} ${BLUE} Install Passwall 1 + 2 ${NC}"
-echo -e "${GREEN} 11.${NC} ${BLUE} Install Passwall 2 + Temporary core ${NC}"
+echo -e "${GREEN} 11.${NC} ${BLUE}Install Passwall 2 + Temporary core ${NC}"
 echo -e "${GREEN} 6.${NC} ${MAGENTA} Easy Exroot For routers that have USB ${NC}"
 echo -e "${GREEN} 7.${NC} ${RED} Extra tools ${NC}"
 echo -e "${GREEN} 8.${NC} ${CYAN} X86Tools (To convert Linux x86 to router) ${NC}"
