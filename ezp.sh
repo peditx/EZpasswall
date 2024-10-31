@@ -34,9 +34,11 @@ theme_url="https://github.com/peditx/PeDitXrt-rebirth/raw/main/apps/luci-theme-a
 config_url="https://github.com/peditx/PeDitXrt-rebirth/raw/main/apps/luci-app-argon-config_0.9_all.ipk"
 new_svg_url="https://raw.githubusercontent.com/peditx/iranIPS/refs/heads/main/.files/lowspc/main/app1.svg"
 new_bg_url="https://raw.githubusercontent.com/peditx/iranIPS/a7ae889a9118cd91aa5d8e3e580628c2b6719a7b/.files/lowspc/main/peds.jpg"
+favicon_url="https://raw.githubusercontent.com/peditx/iranIPS/refs/heads/main/.files/lowspc/main/app1.svg"
 
 svg_path="/www/luci-static/argon/img/argon.svg"
 bg_path="/www/luci-static/argon/img/bg1.jpg"
+favicon_path="/www/luci-static/argon/favicon.ico"
 
 theme_file="luci-theme-argon_2.3_all.ipk"
 config_file="luci-app-argon-config_0.9_all.ipk"
@@ -88,6 +90,12 @@ else
     echo "$(dirname "$bg_path") not found"
 fi
 
+# Download and replace favicon.ico
+echo "Downloading favicon..."
+wget -O "$favicon_path" "$favicon_url" || { echo "Failed to download favicon"; exit 1; }
+echo "Favicon downloaded and replaced!"
+
+
 # Restart uhttpd service to apply changes
 echo "Restarting uhttpd service..."
 /etc/init.d/uhttpd restart
@@ -126,6 +134,12 @@ if [ -f "$bg_path" ]; then
     echo -e "${GREEN}Background image replaced successfully ✅ OK${NC}"
 else
     echo -e "${RED}Background image replacement failed ❌ FAILED${NC}"
+fi
+
+if [ -f "$favicon_path" ]; then
+    echo -e "${GREEN}Favicon replaced successfully ✅ OK${NC}"
+else
+    echo -e "${RED}Favicon replacement failed ❌ FAILED${NC}"
 fi
 
 ##Scanning
