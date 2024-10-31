@@ -28,6 +28,12 @@
 - Linksys EA8100
 - Linksys EA8300
 
+### Minimum System Requirements for Computer
+- **CPU:** `AMD or Intel`
+- **RAM:** `2 GB`
+- **Operating System:** `Linux Ubuntu 20.04`
+
+
 > ⚠ **Before Installation:** Ensure that `WAN Address` and `LAN Address` are not the same.  
 > **Example:** 
 > - WAN Address: `192.168.1.XXX`
