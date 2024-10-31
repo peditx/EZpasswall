@@ -98,6 +98,7 @@ rm -f ezp.sh && wget https://github.com/peditx/EZpasswall/raw/refs/heads/main/ez
 - X86tools for converting Linux x86/x86-64 to OpenWRT, ImmortalWRT, PeDitXRT, MikroTik, or custom operating systems for systems without direct installation.
 - Quick Wi-Fi setup by simply entering the SSID and password in the Extra Tools section
 - Clear used memory with just one click in the Extra Tools section
+- Install additional packages such as OpenVPN, Sing-box, SoftEther, and IP separation with Sing-box, etc., for routers and thin clients with storage space greater than 512 MB in the Extra Tools section
 - Smart installation of XRAY on temporary space if disk space is limited.
 - Direct Iran IP & domain traffic (100%).
 - Improved performance.
