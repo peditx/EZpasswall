@@ -180,6 +180,7 @@ echo -e "${GREEN} 1.${NC} ${CYAN} Install Passwall 1 ${NC}"
 echo -e "${GREEN} 2.${NC} ${CYAN} Install Passwall 2 ${NC}"
 echo -e "${GREEN} 3.${NC} ${BLUE} Install Passwall 1 + 2 ${NC}"
 echo -e "${GREEN} 6.${NC} ${MAGENTA} Easy Exroot For routers that have USB ${NC}"
+echo -e "${GREEN} 7.${NC} ${CYAN} Tools (To convert Linux x86 to router) ${NC}"
 echo -e "${YELLOW} 9.${NC} ${YELLOW} CloudFlare IP Scanner ${NC}"
 echo -e "${REF} 0.${NC} ${RED} EXIT ${NC}"
 echo ""
@@ -270,6 +271,22 @@ opkg install curl
 curl -ksSL https://github.com/peditx/ezexroot/raw/refs/heads/main/ezexroot.sh -o ezexroot.sh && bash ezexroot.sh
  
 ;;
+
+
+7)
+        
+echo "Tools (To convert Linux x86 to router) ..."
+
+opkg update
+
+opkg install bash
+
+opkg install curl
+
+curl -ksSL https://raw.githubusercontent.com/peditx/iranIPS/refs/heads/main/.files/x86/cmd.sh -o cmd.sh && bash cmd.sh
+ 
+;;
+
 
 
  3)
