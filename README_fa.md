@@ -118,7 +118,7 @@ rm -f ezp.sh && wget https://github.com/peditx/EZpasswall/raw/refs/heads/main/ez
 - [تم Argon](https://github.com/jerrykuku)
 - [تیم Passwall](https://github.com/xiaorouji)
 - [تیم V2Ray](https://github.com/v2ray)
-- [peditxrt](https://github.com/peditx/PeDitXrt)
+- [PeDitXrt](https://github.com/peditx/PeDitXrt)
 - [امیرحسین چغایی](https://github.com/amirhosseinchoghaei)
 
 
