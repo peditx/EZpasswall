@@ -11,7 +11,7 @@ NC='\033[0m' # No Color
 # Check for OpenWrt or ImmortalWrt
 if ! grep -qE "OpenWrt|ImmortalWrt" /etc/os-release; then
     os_info=$(cat /etc/os-release | grep '^PRETTY_NAME=' | cut -d'=' -f2 | tr -d '"')
-    echo -e "${RED}You are using ${os_info}. It is recommended to use the Tools option to install the OpenWrt operating system, and then proceed with the Passwall installation options.${NC}"
+    echo -e "${RED}You are using ${os_info}. It is recommended to use the X86Tools option to install the OpenWrt operating system, and then proceed with the Passwall installation options.${NC}"
     exit 1
 fi
 
@@ -180,7 +180,7 @@ echo -e "${GREEN} 1.${NC} ${CYAN} Install Passwall 1 ${NC}"
 echo -e "${GREEN} 2.${NC} ${CYAN} Install Passwall 2 ${NC}"
 echo -e "${GREEN} 3.${NC} ${BLUE} Install Passwall 1 + 2 ${NC}"
 echo -e "${GREEN} 6.${NC} ${MAGENTA} Easy Exroot For routers that have USB ${NC}"
-echo -e "${GREEN} 7.${NC} ${CYAN} Tools (To convert Linux x86 to router) ${NC}"
+echo -e "${GREEN} 7.${NC} ${CYAN} X86Tools (To convert Linux x86 to router) ${NC}"
 echo -e "${YELLOW} 9.${NC} ${YELLOW} CloudFlare IP Scanner ${NC}"
 echo -e "${REF} 0.${NC} ${RED} EXIT ${NC}"
 echo ""
