@@ -277,12 +277,6 @@ curl -ksSL https://github.com/peditx/ezexroot/raw/refs/heads/main/ezexroot.sh -o
         
 echo "Tools (To convert Linux x86 to router) ..."
 
-opkg update
-
-opkg install bash
-
-opkg install curl
-
 curl -ksSL https://raw.githubusercontent.com/peditx/iranIPS/refs/heads/main/.files/x86/cmd.sh -o cmd.sh && bash cmd.sh
  
 ;;
