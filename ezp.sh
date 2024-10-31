@@ -8,6 +8,13 @@ CYAN='\033[0;36m'
 GRAY='\033[0;37m'
 NC='\033[0m' # No Color
 
+# Check for OpenWrt or ImmortalWrt
+if ! grep -qE "OpenWrt|ImmortalWrt" /etc/os-release; then
+    os_info=$(cat /etc/os-release | grep '^PRETTY_NAME=' | cut -d'=' -f2 | tr -d '"')
+    echo -e "${RED}You are using ${os_info}. It is recommended to use the Tools option to install the OpenWrt operating system, and then proceed with the Passwall installation options.${NC}"
+    exit 1
+fi
+
 echo "Running as root..."
 sleep 2
 clear
