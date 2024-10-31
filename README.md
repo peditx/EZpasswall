@@ -115,7 +115,7 @@ rm -f ezp.sh && wget https://github.com/peditx/EZpasswall/raw/refs/heads/main/ez
 - [Argon Theme](https://github.com/jerrykuku)
 - [Passwall Team](https://github.com/xiaorouji)
 - [V2Ray Team](https://github.com/v2ray)
-- [peditxrt](https://github.com/peditx/PeDitXrt)
+- [PeDitXrt](https://github.com/peditx/PeDitXrt)
 - [Amirhosein Choghaei](https://github.com/amirhosseinchoghaei)
 
 
