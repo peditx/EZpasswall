@@ -18,7 +18,7 @@
 ![نصب تصویر](https://github.com/peditx/iranIPS/blob/main/.files/lowspc/main/photo_2024-10-29_17-52-17.jpg?raw=true)
 ![نصب تصویر](https://github.com/peditx/iranIPS/blob/main/.files/lowspc/main/photo_2024-10-31_04-39-14.jpg?raw=true)
 
-### الزامات سیستم
+### الزامات سیستم برای روتر
 
 - **سی پی یو:** `>= 700 MHz`
 - **رم:** `>= 256 MB`
@@ -90,6 +90,7 @@ rm -f ezp.sh && wget https://github.com/peditx/EZpasswall/raw/refs/heads/main/ez
 - نصب خودکار کامل در یک مرحله.
 - پشتیبانی از Passwall 1 و 2 بر روی یک روتر.
 - نصب اکس روت (انتقال و افزایش فضای داخلی روتر با حافظه فاش) با یک کلیک برای روتر هایی که درگاه یو اس بی دارند.
+- X86Tools برای تبدیل Linux x86/x86-64 به OpenWRT، ImmortalWRT، PeDitXRT، MikroTik یا سیستم‌عامل‌های سفارشی برای سیستم‌هایی که نصب مستقیم ندارند.
 - نصب هوشمند XRAY در فضای موقت در صورت محدود بودن فضای دیسک.
 - ترافیک مستقیم IP ها و دامنه های ایران (100%).
 - بهبود عملکرد.
