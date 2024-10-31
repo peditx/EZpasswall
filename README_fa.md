@@ -15,7 +15,7 @@
 ## چگونه EZPasswall را نصب کنیم
 ![نصب تصویر](https://github.com/peditx/iranIPS/blob/1f05bc52dae7b573742e0bcccf8430c8a46b94e4/.files/lowspc/main/photo_2024-10-27_21-15-16.jpg?raw=true)
 ![نصب تصویر](https://github.com/peditx/iranIPS/blob/ffce5c185aecd61f1d92d100593ceecb2b905235/.files/lowspc/main/photo_2024-10-27_20-03-44.jpg?raw=true)
-![نصب تصویر](https://github.com/peditx/iranIPS/blob/main/.files/lowspc/main/photo_2024-10-29_17-52-17.jpg?raw=true)
+![نصب تصویر](https://github.com/peditx/iranIPS/blob/main/.files/lowspc/main/photo_2024-10-31_05-44-49.jpg?raw=true)
 ![نصب تصویر](https://github.com/peditx/iranIPS/blob/main/.files/lowspc/main/photo_2024-10-31_04-39-14.jpg?raw=true)
 
 ### حداقل سیستم مورد نیاز برای روتر
