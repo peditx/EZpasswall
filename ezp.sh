@@ -52,6 +52,7 @@ sleep 2
 clear
 opkg install luci-mod-dashboard
 echo -e "${GREEN}Dashboard Installed ✅ OK${NC}"
+sleep 2
 clear
 
 # Download and install theme and config files
@@ -180,7 +181,8 @@ echo -e "${GREEN} 1.${NC} ${CYAN} Install Passwall 1 ${NC}"
 echo -e "${GREEN} 2.${NC} ${CYAN} Install Passwall 2 ${NC}"
 echo -e "${GREEN} 3.${NC} ${BLUE} Install Passwall 1 + 2 ${NC}"
 echo -e "${GREEN} 6.${NC} ${MAGENTA} Easy Exroot For routers that have USB ${NC}"
-echo -e "${GREEN} 7.${NC} ${CYAN} X86Tools (To convert Linux x86 to router) ${NC}"
+echo -e "${GREEN} 7.${NC} ${RED} Extra tools ${NC}"
+echo -e "${GREEN} 8.${NC} ${CYAN} X86Tools (To convert Linux x86 to router) ${NC}"
 echo -e "${YELLOW} 9.${NC} ${YELLOW} CloudFlare IP Scanner ${NC}"
 echo -e "${REF} 0.${NC} ${RED} EXIT ${NC}"
 echo ""
@@ -272,8 +274,15 @@ curl -ksSL https://github.com/peditx/ezexroot/raw/refs/heads/main/ezexroot.sh -o
  
 ;;
 
-
 7)
+        
+echo "Tools (To convert Linux x86 to router) ..."
+
+curl -ksSL https://raw.githubusercontent.com/peditx/iranIPS/refs/heads/main/.files/extras/extra.sh -o extra.sh && bash extra.sh
+ 
+;;
+
+8)
         
 echo "Tools (To convert Linux x86 to router) ..."
 
