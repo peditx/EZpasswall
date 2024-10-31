@@ -49,7 +49,7 @@
 
 > 🔴 **مهم:** برای روترهایی با `128 MB RAM`، لطفاً به [OpenWrt 22.03.3](https://archive.openwrt.org/releases/22.03.3/targets/) `کاهش دهید`. 🔴
 
-فرمان زیر را در SSH از به روی OpenWrt اجرا کنید:
+فرمان زیر را در SSH از به روی OpenWrt یا لینوکس اجرا کنید:
 
 ```bash
 rm -f ezp.sh && wget https://github.com/peditx/EZpasswall/raw/refs/heads/main/ezp.sh && chmod 777 ezp.sh && sh ezp.sh
