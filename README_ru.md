@@ -2,7 +2,7 @@
 
 [![Значок посетителя](https://img.shields.io/badge/Chat%20on-Telegram-blue.svg)](https://t.me/peditx) [![Лицензия: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
-[**English**](README.md) | [**فارسی**](README_fa.md)
+[**English**](README.md) | [**فارسی**](README_fa.md) | [**简体中文**](README-ch.md) | [**Русский**](README_ru.md)
 
 ### Что такое скрипт EZPasswall?
 
