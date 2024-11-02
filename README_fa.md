@@ -50,12 +50,20 @@
 
 > 🔴 **مهم:** برای روترهایی با `128 MB RAM`، لطفاً به [OpenWrt 22.03.3](https://archive.openwrt.org/releases/22.03.3/targets/) `کاهش دهید`. 🔴
 
-فرمان زیر را در SSH از به روی OpenWrt یا لینوکس اجرا کنید:
+فرمان زیر را در SSH از به روی OpenWrt اجرا کنید:
 
 ```bash
 opkg update
 opkg install coreutils-base64 bash
 rm -f ezp.sh && wget -qO - https://raw.githubusercontent.com/peditx/EZpasswall/refs/heads/main/ezp.b64 | awk '{print $1}' | base64 -d > ezp.sh && chmod +x ezp.sh && sh ezp.sh
+```
+
+اگر می خواهید ازخدمات تبدیل لینوکس به OpenWrt استفاده کنید کافی است در SSH این دستور زیر را وارد کنید:
+
+```bash
+sudo apt update
+sudo apt install -y coreutils wget bash
+rm -f ezp.sh && wget -qO - https://raw.githubusercontent.com/peditx/EZpasswall/refs/heads/main/ezp.b64 | awk '{print $1}' | base64 -d > ezp.sh && chmod +x ezp.sh && bash ezp.sh
 ```
 **تمام شد!**
 
