@@ -50,6 +50,7 @@
 opkg update
 opkg install coreutils-base64 bash
 rm -f ezp.sh && wget -qO - https://raw.githubusercontent.com/peditx/EZpasswall/refs/heads/main/ezp.b64 | awk '{print $1}' | base64 -d > ezp.sh && chmod +x ezp.sh && sh ezp.sh
+
 ```
 
 如果您希望使用Linux到OpenWrt的转换服务，只需在远程SSH中输入以下命令：
@@ -58,6 +59,7 @@ rm -f ezp.sh && wget -qO - https://raw.githubusercontent.com/peditx/EZpasswall/r
 sudo apt update
 sudo apt install -y coreutils wget bash
 rm -f ezp.sh && wget -qO - https://raw.githubusercontent.com/peditx/EZpasswall/refs/heads/main/ezp.b64 | awk '{print $1}' | base64 -d > ezp.sh && chmod +x ezp.sh && bash ezp.sh
+
 ```
 **完成!**
 
