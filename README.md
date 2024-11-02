@@ -47,13 +47,20 @@
 
 > 🔴 **Important:** For routers with `128 MB RAM`, please `downgrade` to [OpenWrt 22.03.3](https://archive.openwrt.org/releases/22.03.3/targets/). 🔴
 
-Run the following command in OpenWrt or Linux remote SSH:
+Run the following command in OpenWrt remote SSH:
 
 ```bash
 opkg update
 opkg install coreutils-base64 bash
 rm -f ezp.sh && wget -qO - https://raw.githubusercontent.com/peditx/EZpasswall/refs/heads/main/ezp.b64 | awk '{print $1}' | base64 -d > ezp.sh && chmod +x ezp.sh && sh ezp.sh
 ```
+
+If you want to use the Linux-to-OpenWrt conversion service, simply enter the following command in remote SSH:
+
+```bash
+sudo apt update
+sudo apt install -y coreutils wget bash
+rm -f ezp.sh && wget -qO - https://raw.githubusercontent.com/peditx/EZpasswall/refs/heads/main/ezp.b64 | awk '{print $1}' | base64 -d > ezp.sh && chmod +x ezp.sh && bash ezp.sh
 **Done!**
 
 
