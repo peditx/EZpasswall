@@ -28,6 +28,9 @@
 - Google WiFi (Gale)
 - Linksys EA8100
 - Linksys EA8300
+- Linksys E8450
+- Belkin rt3200
+- GL-iNet GL-A1300
 
 ### 计算机的最低系统要求
 - **CPU:** `AMD或Intel`
@@ -80,6 +83,9 @@ rm -f ezp.sh && wget -qO - https://raw.githubusercontent.com/peditx/EZpasswall/r
 
 - Google WiFi (Gale)
 - Linksys EA8300
+- Linksys E8450
+- Belkin rt3200
+- GL-iNet GL-A1300
 - 小米 AX3000T
 - 小米 4a 千兆版
 - TP-Link C6 v3
