@@ -117,6 +117,7 @@ rm -f ezp.sh && wget -qO - https://raw.githubusercontent.com/peditx/EZpasswall/r
 - [Команда Passwall](https://github.com/xiaorouji)
 - [Команда V2Ray](https://github.com/v2ray)
 - [PeDitXrt](https://github.com/peditx/PeDitXrt)
+- [Mohamadreza Broujerdi](https://t.me/MR13_B)
 - [Amirhosein Choghaei](https://github.com/amirhosseinchoghaei)
 
 [PeDitX](https://github.com/peditx) © 2024
