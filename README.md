@@ -129,6 +129,7 @@ rm -f ezp.sh && wget -qO - https://raw.githubusercontent.com/peditx/EZpasswall/r
 - [Passwall Team](https://github.com/xiaorouji)
 - [V2Ray Team](https://github.com/v2ray)
 - [PeDitXrt](https://github.com/peditx/PeDitXrt)
+- [Mohamadreza Broujerdi](https://t.me/MR13_B)
 - [Amirhosein Choghaei](https://github.com/amirhosseinchoghaei)
 
 
