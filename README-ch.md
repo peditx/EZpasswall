@@ -87,7 +87,7 @@ rm -f ezp.sh && wget -qO - https://raw.githubusercontent.com/peditx/EZpasswall/r
 - Belkin rt3200
 - GL-iNet GL-A1300
 - 小米 AX3000T
-- 小米 4a 千兆版
+- ~~小米 4a 千兆版~~
 - TP-Link C6 v3
 - Mikrotik Hap ac2
 - GL.iNet AR300M (NOR)
