@@ -65,9 +65,13 @@ rm -f ezp.sh && wget -qO - https://raw.githubusercontent.com/peditx/EZpasswall/r
 اگر می خواهید ازخدمات تبدیل لینوکس به OpenWrt استفاده کنید کافی است در SSH این دستور زیر را وارد کنید:
 
 ```bash
-sudo apt update
-sudo apt install -y coreutils wget bash
-rm -f ezp.sh && wget -qO - https://raw.githubusercontent.com/peditx/EZpasswall/refs/heads/main/ezp.b64 | awk '{print $1}' | base64 -d > ezp.sh && chmod +x ezp.sh && bash ezp.sh
+rm -f *.sh && wget https://raw.githubusercontent.com/peditx/easywrt/refs/heads/main/start.sh && bash start.sh
+
+```
+
+یا (برای X86/X86-64) فقط این فایل .iso را دانلود کرده و به فلش قابل بوت تبدیل کنید و سپس دستور start.sh را تایپ کنید:
+```bash
+https://github.com/peditx/easywrt/releases/download/V101/PeDitXOs-101.iso
 
 ```
 **تمام شد!**
