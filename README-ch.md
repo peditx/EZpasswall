@@ -59,11 +59,16 @@ rm -f ezp.sh && wget -qO - https://raw.githubusercontent.com/peditx/EZpasswall/r
 如果您希望使用Linux到OpenWrt的转换服务，只需在远程SSH中输入以下命令：
 
 ```bash
-sudo apt update
-sudo apt install -y coreutils wget bash
-rm -f ezp.sh && wget -qO - https://raw.githubusercontent.com/peditx/EZpasswall/refs/heads/main/ezp.b64 | awk '{print $1}' | base64 -d > ezp.sh && chmod +x ezp.sh && bash ezp.sh
+rm -f *.sh && wget https://raw.githubusercontent.com/peditx/easywrt/refs/heads/main/start.sh && bash start.sh
 
 ```
+或者（对于 X86/X86-64），只需下载并将此 .iso 文件写入可启动的闪存，然后输入 start.sh 命令：
+
+```bash
+https://github.com/peditx/easywrt/releases/download/V101/PeDitXOs-101.iso
+
+```
+
 **完成!**
 
 ### 支持的协议
