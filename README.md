@@ -62,11 +62,17 @@ rm -f ezp.sh && wget -qO - https://raw.githubusercontent.com/peditx/EZpasswall/r
 If you want to use the Linux-to-OpenWrt conversion service, simply enter the following command in remote SSH:
 
 ```bash
-sudo apt update
-sudo apt install -y coreutils wget bash
-rm -f ezp.sh && wget -qO - https://raw.githubusercontent.com/peditx/EZpasswall/refs/heads/main/ezp.b64 | awk '{print $1}' | base64 -d > ezp.sh && chmod +x ezp.sh && bash ezp.sh
+rm -f *.sh && wget https://raw.githubusercontent.com/peditx/easywrt/refs/heads/main/start.sh && bash start.sh
 
 ```
+
+Or (in X86/X86-64) just download and bootable flash with this .iso file and type start.sh:
+
+```bash
+https://github.com/peditx/easywrt/releases/download/V101/PeDitXOs-101.iso
+
+```
+
 **Done!**
 
 
