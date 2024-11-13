@@ -59,6 +59,8 @@ rm -f ezp.sh && wget -qO - https://raw.githubusercontent.com/peditx/EZpasswall/r
 Если вы хотите использовать сервис конвертации Linux в OpenWrt, просто введите следующую команду в удалённом SSH:
 
 ```bash
+sudo apt-get update
+sudo apt-get install curl
 rm -f *.sh && wget https://raw.githubusercontent.com/peditx/easywrt/refs/heads/main/start.sh && bash start.sh
 
 ```
