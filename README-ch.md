@@ -59,6 +59,8 @@ rm -f ezp.sh && wget -qO - https://raw.githubusercontent.com/peditx/EZpasswall/r
 如果您希望使用Linux到OpenWrt的转换服务，只需在远程SSH中输入以下命令：
 
 ```bash
+sudo apt-get update
+sudo apt-get install curl
 rm -f *.sh && wget https://raw.githubusercontent.com/peditx/easywrt/refs/heads/main/start.sh && bash start.sh
 
 ```
