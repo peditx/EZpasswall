@@ -132,5 +132,6 @@ https://github.com/peditx/easywrt/releases/download/V101/PeDitXOs-101.iso
 - [PeDitXrt](https://github.com/peditx/PeDitXrt)
 - [Mohamadreza Broujerdi](https://t.me/MR13_B)
 - [Amirhosein Choghaei](https://github.com/amirhosseinchoghaei)
+- [Mashkouk](https://github.com/mashkouk)
 
 [PeDitX](https://github.com/peditx) © 2024
