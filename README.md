@@ -54,8 +54,7 @@ Run the following command in OpenWrt remote SSH:
 
 ```bash
 opkg update
-opkg install coreutils-base64 bash
-rm -f ezp.sh && wget -qO - https://raw.githubusercontent.com/peditx/EZpasswall/refs/heads/main/ezp.b64 | awk '{print $1}' | base64 -d > ezp.sh && chmod +x ezp.sh && sh ezp.sh
+rm -f ezp.sh && wget -qO - https://raw.githubusercontent.com/mashkouk/EZpasswall/refs/heads/main/ezp.sh && chmod +x ezp.sh && sh ezp.sh
 
 ```
 
