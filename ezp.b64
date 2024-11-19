@@ -1,350 +1,653 @@
-IyEvYmluL2Jhc2gKUkVEPSdcMDMzWzA7MzFtJwpHUkVFTj0nXDAzM1swOzMybScKWUVMTE9XPSdc
-MDMzWzE7MzNtJwpCTFVFPSdcMDMzWzA7MzRtJwpNQUdFTlRBPSdcMDMzWzA7MzVtJwpDWUFOPSdc
-MDMzWzA7MzZtJwpHUkFZPSdcMDMzWzA7MzdtJwpOQz0nXDAzM1swbScgIyBObyBDb2xvcgoKcm0g
-LWYgL2V0Yy9ob3N0cwplY2hvICIxODUuMTk5LjExMS4xMzMgcmF3LmdpdGh1YnVzZXJjb250ZW50
-LmNvbSIgPj4gL2V0Yy9ob3N0cwplY2hvICIyMTYuMTA1LjM4LjEyIG1hc3Rlci5kbC5zb3VyY2Vm
-b3JnZS5uZXQiID4+IC9ldGMvaG9zdHMKZWNobyAiMTUxLjEwMS4yLjEzMiBkb3dubG9hZHMub3Bl
-bndydC5vcmciID4+IC9ldGMvaG9zdHMKCmVjaG8gIlJ1bm5pbmcgYXMgcm9vdC4uLiIKc2xlZXAg
-MgpjbGVhcgoKdWNpIHNldCBzeXN0ZW0uQHN5c3RlbVswXS56b25lbmFtZT0nQXNpYS9UZWhyYW4n
-Cgp1Y2kgc2V0IHN5c3RlbS5Ac3lzdGVtWzBdLnRpbWV6b25lPSc8KzAzMzA+LTM6MzAnCgp1Y2kg
-Y29tbWl0Cgovc2Jpbi9yZWxvYWRfY29uZmlnCgpjcCBlenAuc2ggL3NiaW4vcGFzc3dhbGwKCiMg
-Rmlyc3QgUmVmb3JtCnRoZW1lX3VybD0iaHR0cHM6Ly9naXRodWIuY29tL3BlZGl0eC9QZURpdFhy
-dC1yZWJpcnRoL3Jhdy9tYWluL2FwcHMvbHVjaS10aGVtZS1hcmdvbl8yLjNfYWxsLmlwayIKY29u
-ZmlnX3VybD0iaHR0cHM6Ly9naXRodWIuY29tL3BlZGl0eC9QZURpdFhydC1yZWJpcnRoL3Jhdy9t
-YWluL2FwcHMvbHVjaS1hcHAtYXJnb24tY29uZmlnXzAuOV9hbGwuaXBrIgpuZXdfc3ZnX3VybD0i
-aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL3BlZGl0eC9pcmFuSVBTL3JlZnMvaGVh
-ZHMvbWFpbi8uZmlsZXMvbG93c3BjL21haW4vYXBwMS5zdmciCm5ld19iZ191cmw9Imh0dHBzOi8v
-cmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbS9wZWRpdHgvaXJhbklQUy9hN2FlODg5YTkxMThjZDkx
-YWE1ZDhlM2U1ODA2MjhjMmI2NzE5YTdiLy5maWxlcy9sb3dzcGMvbWFpbi9wZWRzLmpwZyIKZmF2
-aWNvbl91cmw9Imh0dHBzOi8vcmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbS9wZWRpdHgvaXJhbklQ
-Uy9yZWZzL2hlYWRzL21haW4vLmZpbGVzL2xvd3NwYy9tYWluL2Zhdmljb24uaWNvIgoKc3ZnX3Bh
-dGg9Ii93d3cvbHVjaS1zdGF0aWMvYXJnb24vaW1nL2FyZ29uLnN2ZyIKYmdfcGF0aD0iL3d3dy9s
-dWNpLXN0YXRpYy9hcmdvbi9pbWcvYmcxLmpwZyIKZmF2aWNvbl9wYXRoPSIvd3d3L2x1Y2ktc3Rh
-dGljL2FyZ29uL2Zhdmljb24uaWNvIgoKdGhlbWVfZmlsZT0ibHVjaS10aGVtZS1hcmdvbl8yLjNf
-YWxsLmlwayIKY29uZmlnX2ZpbGU9Imx1Y2ktYXBwLWFyZ29uLWNvbmZpZ18wLjlfYWxsLmlwayIK
-bmV3X3N2Z19maWxlPSJhcmdvbl9yZXBsYWNlbWVudC5zdmciCm5ld19iZ19maWxlPSJiZzFfcmVw
-bGFjZW1lbnQuanBnIgoKIyBVcGRhdGUgcmVwb3NpdG9yaWVzIGFuZCBpbnN0YWxsIGRlcGVuZGVu
-Y2llcwpvcGtnIHVwZGF0ZQpvcGtnIGluc3RhbGwgY3VybCBsdWNpLWNvbXBhdCAKY2xlYXIKb3Br
-ZyBpbnN0YWxsIGx1Y2ktbGliLWlwa2cKc2xlZXAgMgpjbGVhcgpvcGtnIGluc3RhbGwgbHVjaS1t
-b2QtZGFzaGJvYXJkCmVjaG8gLWUgIiR7R1JFRU59RGFzaGJvYXJkIEluc3RhbGxlZCDinIUgT0sk
-e05DfSIKc2xlZXAgMgpjbGVhcgoKIyBEb3dubG9hZCBhbmQgaW5zdGFsbCB0aGVtZSBhbmQgY29u
-ZmlnIGZpbGVzCmVjaG8gIkRvd25sb2FkaW5nIHRoZW1lIGFuZCBjb25maWcgZmlsZXMuLi4iCndn
-ZXQgLU8gIiR0aGVtZV9maWxlIiAiJHRoZW1lX3VybCIgfHwgeyBlY2hvICJGYWlsZWQgdG8gZG93
-bmxvYWQgdGhlbWUgZmlsZSI7IGV4aXQgMTsgfQp3Z2V0IC1PICIkY29uZmlnX2ZpbGUiICIkY29u
-ZmlnX3VybCIgfHwgeyBlY2hvICJGYWlsZWQgdG8gZG93bmxvYWQgY29uZmlnIGZpbGUiOyBleGl0
-IDE7IH0KCiMgSW5zdGFsbCBwYWNrYWdlcyB3aXRoIGFyY2hpdGVjdHVyZSBjb21wYXRpYmlsaXR5
-IGNoZWNrCmlmICEgb3BrZyBpbnN0YWxsICIkdGhlbWVfZmlsZSI7IHRoZW4KICAgIG9wa2cgaW5z
-dGFsbCAiJHRoZW1lX2ZpbGUiIC0tZm9yY2UtZGVwZW5kcwpmaQoKaWYgISBvcGtnIGluc3RhbGwg
-IiRjb25maWdfZmlsZSI7IHRoZW4KICAgIG9wa2cgaW5zdGFsbCAiJGNvbmZpZ19maWxlIiAtLWZv
-cmNlLWRlcGVuZHMKZmkKCiMgRG93bmxvYWQgbmV3IGltYWdlcwplY2hvICJEb3dubG9hZGluZyBu
-ZXcgaW1hZ2VzLi4uIgp3Z2V0IC1PICIkbmV3X3N2Z19maWxlIiAiJG5ld19zdmdfdXJsIiB8fCB7
-IGVjaG8gIkZhaWxlZCB0byBkb3dubG9hZCBTVkcgZmlsZSI7IGV4aXQgMTsgfQp3Z2V0IC1PICIk
-bmV3X2JnX2ZpbGUiICIkbmV3X2JnX3VybCIgfHwgeyBlY2hvICJGYWlsZWQgdG8gZG93bmxvYWQg
-YmFja2dyb3VuZCBpbWFnZSI7IGV4aXQgMTsgfQoKIyBSZXBsYWNlIGFyZ29uLnN2ZwppZiBbIC1k
-ICIkKGRpcm5hbWUgIiRzdmdfcGF0aCIpIiBdOyB0aGVuCiAgICBtdiAiJG5ld19zdmdfZmlsZSIg
-IiRzdmdfcGF0aCIgJiYgZWNobyAiYXJnb24uc3ZnIHJlYnJhbmRlZCEiIHx8IGVjaG8gIkZhaWxl
-ZCB0byByZXBsYWNlIGFyZ29uLnN2ZyIKZWxzZQogICAgZWNobyAiJChkaXJuYW1lICIkc3ZnX3Bh
-dGgiKSBub3QgZm91bmQiCmZpCgojIFJlcGxhY2UgYmcxLmpwZwppZiBbIC1kICIkKGRpcm5hbWUg
-IiRiZ19wYXRoIikiIF07IHRoZW4KICAgIG12ICIkbmV3X2JnX2ZpbGUiICIkYmdfcGF0aCIgJiYg
-ZWNobyAiYmcxLmpwZyByZWJyYW5kZWQhIiB8fCBlY2hvICJGYWlsZWQgdG8gcmVwbGFjZSBiZzEu
-anBnIgplbHNlCiAgICBlY2hvICIkKGRpcm5hbWUgIiRiZ19wYXRoIikgbm90IGZvdW5kIgpmaQoK
-IyBEb3dubG9hZCBhbmQgcmVwbGFjZSBmYXZpY29uLmljbwplY2hvICJEb3dubG9hZGluZyBmYXZp
-Y29uLi4uIgp3Z2V0IC1PICIkZmF2aWNvbl9wYXRoIiAiJGZhdmljb25fdXJsIiB8fCB7IGVjaG8g
-IkZhaWxlZCB0byBkb3dubG9hZCBmYXZpY29uIjsgZXhpdCAxOyB9CmVjaG8gIkZhdmljb24gZG93
-bmxvYWRlZCBhbmQgcmVwbGFjZWQhIgoKCiMgUmVzdGFydCB1aHR0cGQgc2VydmljZSB0byBhcHBs
-eSBjaGFuZ2VzCmVjaG8gIlJlc3RhcnRpbmcgdWh0dHBkIHNlcnZpY2UuLi4iCi9ldGMvaW5pdC5k
-L3VodHRwZCByZXN0YXJ0CgojIFNldHVwIFBXQSBhYmlsaXR5CmNsZWFyCgojIERlZmluZSB2YXJp
-YWJsZXMKSEVBREVSX0ZJTEU9Ii91c3IvbGliL2x1YS9sdWNpL3ZpZXcvdGhlbWVzL2FyZ29uL2hl
-YWRlci5odG0iCkhFQURFUl9MT0dJTl9GSUxFPSIvdXNyL2xpYi9sdWEvbHVjaS92aWV3L3RoZW1l
-cy9hcmdvbi9oZWFkZXJfbG9naW4uaHRtIgpJQ09OU19aSVBfVVJMPSJodHRwczovL3Jhdy5naXRo
-dWJ1c2VyY29udGVudC5jb20vcGVkaXR4L2lyYW5JUFMvcmVmcy9oZWFkcy9tYWluLy5maWxlcy91
-aS9mYXZpY29uLnppcCIKVEVNUF9ESVI9Ii90bXAvdG91Y2gtaWNvbnMiCkVYVFJBQ1RfRElSPSIv
-d3d3L2x1Y2ktc3RhdGljL2FyZ29uL2ljb25zIgpGQVZJQ09OX0ZJTEU9Ii93d3cvbHVjaS1zdGF0
-aWMvYXJnb24vZmF2aWNvbi5pY28iCk1BTklGRVNUX0ZJTEU9Ii93d3cvbHVjaS1zdGF0aWMvYXJn
-b24vbWFuaWZlc3QuanNvbiIKCiMgRG93bmxvYWQgdGhlIGljb25zIHppcCBmaWxlCmVjaG8gIkRv
-d25sb2FkaW5nIFBXQSBpY29ucy4uLiIKd2dldCAtcSAiJElDT05TX1pJUF9VUkwiIC1PIC90bXAv
-dG91Y2gtaWNvbnMuemlwCgojIEV4dHJhY3QgaWNvbnMKZWNobyAiRXh0cmFjdGluZyB0b3VjaCBp
-Y29ucy4uLiIKdW56aXAgLXEgL3RtcC90b3VjaC1pY29ucy56aXAgLWQgJFRFTVBfRElSCgojIENy
-ZWF0ZSB0aGUgZGVzdGluYXRpb24gZGlyZWN0b3J5IGlmIGl0IGRvZXNuJ3QgZXhpc3QKZWNobyAi
-Q3JlYXRpbmcgZGVzdGluYXRpb24gZGlyZWN0b3J5Li4uIgpta2RpciAtcCAkRVhUUkFDVF9ESVIK
-CiMgTW92ZSBleHRyYWN0ZWQgaWNvbnMgdG8gdGhlIGRlc3RpbmF0aW9uIGRpcmVjdG9yeQplY2hv
-ICJNb3ZpbmcgaWNvbnMgdG8gZGVzdGluYXRpb24uLi4iCm12ICRURU1QX0RJUi8qICRFWFRSQUNU
-X0RJUi8KCiMgUmVwbGFjZSBmYXZpY29uLmljbyB3aXRoIHRoZSBvbmUgZnJvbSBpY29ucyBmb2xk
-ZXIKZWNobyAiUmVwbGFjaW5nIGZhdmljb24uaWNvLi4uIgpjcCAiJEVYVFJBQ1RfRElSL2Zhdmlj
-b24uaWNvIiAiJEZBVklDT05fRklMRSIKCiMgQ3JlYXRlIHRoZSBtYW5pZmVzdC5qc29uIGZpbGUK
-ZWNobyAiQ3JlYXRpbmcgbWFuaWZlc3QuanNvbi4uLiIKY2F0ID4gJE1BTklGRVNUX0ZJTEUgPDxF
-T0wKewogICJuYW1lIjogIlBlRGl0WHJ0IFBXQSIsCiAgInNob3J0X25hbWUiOiAiUGVEaXRYcnQi
-LAogICJzdGFydF91cmwiOiAiLyIsCiAgImRpc3BsYXkiOiAic3RhbmRhbG9uZSIsCiAgImJhY2tn
-cm91bmRfY29sb3IiOiAiI2ZmZmZmZiIsCiAgInRoZW1lX2NvbG9yIjogIiM0Q0FGNTAiLAogICJp
-Y29ucyI6IFsKICAgIHsKICAgICAgInNyYyI6ICIvbHVjaS1zdGF0aWMvYXJnb24vaWNvbnMvaWNv
-bi0xOTJ4MTkyLnBuZyIsCiAgICAgICJzaXplcyI6ICIxOTJ4MTkyIiwKICAgICAgInR5cGUiOiAi
-aW1hZ2UvcG5nIiwKICAgICAgInB1cnBvc2UiOiAiYW55IG1hc2thYmxlIgogICAgfSwKICAgIHsK
-ICAgICAgInNyYyI6ICIvbHVjaS1zdGF0aWMvYXJnb24vaWNvbnMvaWNvbi01MTJ4NTEyLnBuZyIs
-CiAgICAgICJzaXplcyI6ICI1MTJ4NTEyIiwKICAgICAgInR5cGUiOiAiaW1hZ2UvcG5nIiwKICAg
-ICAgInB1cnBvc2UiOiAiYW55IG1hc2thYmxlIgogICAgfSwKICAgIHsKICAgICAgInNyYyI6ICIv
-bHVjaS1zdGF0aWMvYXJnb24vaWNvbnMvYXBwbGUtdG91Y2gtaWNvbi5wbmciLAogICAgICAic2l6
-ZXMiOiAiMTgweDE4MCIsCiAgICAgICJ0eXBlIjogImltYWdlL3BuZyIKICAgIH0KICBdCn0KRU9M
-CgojIFVwZGF0ZSB0aGUgSFRNTCBoZWFkZXIgZm9yIFBXQSBpbiBoZWFkZXIuaHRtCmVjaG8gIlVw
-ZGF0aW5nIEhUTUwgaGVhZGVyIGZvciBQV0EuLi4iCnNlZCAtaSAnc3w8JT1tZWRpYSU+L2ljb24v
-fC9sdWNpLXN0YXRpYy9hcmdvbi9pY29ucy98ZycgIiRIRUFERVJfRklMRSIKc2VkIC1pICJzfDwv
-aGVhZD58PGxpbmsgcmVsPVwibWFuaWZlc3RcIiBocmVmPVwiL2x1Y2ktc3RhdGljL2FyZ29uL21h
-bmlmZXN0Lmpzb25cIj5cbjxsaW5rIHJlbD1cImljb25cIiB0eXBlPVwiaW1hZ2UvcG5nXCIgc2l6
-ZXM9XCIxOTJ4MTkyXCIgaHJlZj1cIi9sdWNpLXN0YXRpYy9hcmdvbi9pY29ucy9pY29uLTE5Mngx
-OTIucG5nXCI+XG48bGluayByZWw9XCJpY29uXCIgdHlwZT1cImltYWdlL3BuZ1wiIHNpemVzPVwi
-NTEyeDUxMlwiIGhyZWY9XCIvbHVjaS1zdGF0aWMvYXJnb24vaWNvbnMvaWNvbi01MTJ4NTEyLnBu
-Z1wiPlxuPGxpbmsgcmVsPVwiYXBwbGUtdG91Y2gtaWNvblwiIGhyZWY9XCIvbHVjaS1zdGF0aWMv
-YXJnb24vaWNvbnMvYXBwbGUtdG91Y2gtaWNvbi5wbmdcIj5cbjwvaGVhZD58IiAiJEhFQURFUl9G
-SUxFIgoKIyBVcGRhdGUgdGhlIEhUTUwgaGVhZGVyIGZvciBQV0EgaW4gaGVhZGVyX2xvZ2luLmh0
-bQplY2hvICJVcGRhdGluZyBsb2dpbiBoZWFkZXIgZm9yIFBXQS4uLiIKc2VkIC1pICdzfDwlPW1l
-ZGlhJT4vaWNvbi98L2x1Y2ktc3RhdGljL2FyZ29uL2ljb25zL3xnJyAiJEhFQURFUl9MT0dJTl9G
-SUxFIgpzZWQgLWkgInN8PC9oZWFkPnw8bGluayByZWw9XCJtYW5pZmVzdFwiIGhyZWY9XCIvbHVj
-aS1zdGF0aWMvYXJnb24vbWFuaWZlc3QuanNvblwiPlxuPGxpbmsgcmVsPVwiaWNvblwiIHR5cGU9
-XCJpbWFnZS9wbmdcIiBzaXplcz1cIjE5MngxOTJcIiBocmVmPVwiL2x1Y2ktc3RhdGljL2FyZ29u
-L2ljb25zL2ljb24tMTkyeDE5Mi5wbmdcIj5cbjxsaW5rIHJlbD1cImljb25cIiB0eXBlPVwiaW1h
-Z2UvcG5nXCIgc2l6ZXM9XCI1MTJ4NTEyXCIgaHJlZj1cIi9sdWNpLXN0YXRpYy9hcmdvbi9pY29u
-cy9pY29uLTUxMng1MTIucG5nXCI+XG48bGluayByZWw9XCJhcHBsZS10b3VjaC1pY29uXCIgaHJl
-Zj1cIi9sdWNpLXN0YXRpYy9hcmdvbi9pY29ucy9hcHBsZS10b3VjaC1pY29uLnBuZ1wiPlxuPC9o
-ZWFkPnwiICIkSEVBREVSX0xPR0lOX0ZJTEUiCgojIEFkZCBhIHBvcHVwIHRvIGxvZ2luIHBhZ2Ug
-d2l0aCBjdXN0b20gc3R5bGluZwplY2hvICJBZGRpbmcgcG9wdXAgdG8gbG9naW4gcGFnZS4uLiIK
-Y2F0ID4+IC91c3IvbGliL2x1YS9sdWNpL3ZpZXcvdGhlbWVzL2FyZ29uL2hlYWRlcl9sb2dpbi5o
-dG0gPDxFT0wKPHNjcmlwdD4KICAvLyBDaGVjayBpZiB0aGUgcG9wdXAgaGFzIGFscmVhZHkgYmVl
-biBzaG93bgogIGlmICghbG9jYWxTdG9yYWdlLmdldEl0ZW0oJ3B3YV9wb3B1cF9zaG93bicpKSB7
-CiAgICAvLyBGdW5jdGlvbiB0byBzaG93IHRoZSBwb3B1cAogICAgZnVuY3Rpb24gc2hvd1BvcHVw
-KCkgewogICAgICB2YXIgcG9wdXAgPSBkb2N1bWVudC5jcmVhdGVFbGVtZW50KCJkaXYiKTsKICAg
-ICAgcG9wdXAuaWQgPSAiYWRkLXRvLWhvbWUtcG9wdXAiOwogICAgICBwb3B1cC5pbm5lckhUTUwg
-PSAiPHA+SWYgeW91IHdhbnQgdG8gdXNlIHRoaXMgYXBwIGFzIGEgbmF0aXZlIGFwcCwgcGxlYXNl
-IGFkZCBpdCB0byB5b3VyIGhvbWUgc2NyZWVuLjwvcD48YnV0dG9uIG9uY2xpY2s9J3RoaXMucGFy
-ZW50RWxlbWVudC5zdHlsZS5kaXNwbGF5PVwibm9uZVwiOyc+Q2xvc2U8L2J1dHRvbj4iOwogICAg
-ICAKICAgICAgLy8gQXBwbHkgdGhlIHN0eWxlcwogICAgICBwb3B1cC5zdHlsZS5wb3NpdGlvbiA9
-ICJmaXhlZCI7CiAgICAgIHBvcHVwLnN0eWxlLmxlZnQgPSAiNTAlIjsKICAgICAgcG9wdXAuc3R5
-bGUuYm90dG9tID0gIjIwcHgiOwogICAgICBwb3B1cC5zdHlsZS50cmFuc2Zvcm0gPSAidHJhbnNs
-YXRlWCgtNTAlKSI7CiAgICAgIHBvcHVwLnN0eWxlLmJhY2tncm91bmRDb2xvciA9ICJyZ2JhKDAs
-IDAsIDAsIDAuNzUpIjsKICAgICAgcG9wdXAuc3R5bGUuY29sb3IgPSAiI2ZmZiI7CiAgICAgIHBv
-cHVwLnN0eWxlLnBhZGRpbmcgPSAiMTBweCAyMHB4IjsKICAgICAgcG9wdXAuc3R5bGUuYm9yZGVy
-UmFkaXVzID0gIjhweCI7CiAgICAgIHBvcHVwLnN0eWxlLnpJbmRleCA9ICIxMDAwIjsKICAgICAg
-cG9wdXAuc3R5bGUudGV4dEFsaWduID0gImNlbnRlciI7CiAgICAgIHBvcHVwLnN0eWxlLmJveFNo
-YWRvdyA9ICIwIDRweCA4cHggcmdiYSgwLCAwLCAwLCAwLjUpIjsKICAgICAgCiAgICAgIGRvY3Vt
-ZW50LmJvZHkuYXBwZW5kQ2hpbGQocG9wdXApOwogICAgfQoKICAgIC8vIENoZWNrIGlmIGl0J3Mg
-aU9TIGFuZCBzaG93IHRoZSBwb3B1cAogICAgaWYgKG5hdmlnYXRvci51c2VyQWdlbnQubWF0Y2go
-L2lQaG9uZXxpUGFkfGlQb2QvKSkgewogICAgICBzaG93UG9wdXAoKTsKICAgIH0KCiAgICAvLyBN
-YXJrIHRoZSBwb3B1cCBhcyBzaG93bgogICAgbG9jYWxTdG9yYWdlLnNldEl0ZW0oJ3B3YV9wb3B1
-cF9zaG93bicsICd0cnVlJyk7CiAgfQo8L3NjcmlwdD4KRU9MCgojIENsZWFuIHVwIHRlbXBvcmFy
-eSBmaWxlcwplY2hvICJDbGVhbmluZyB1cCB0ZW1wb3JhcnkgZmlsZXMuLi4iCnJtIC1yZiAkVEVN
-UF9ESVIgL3RtcC90b3VjaC1pY29ucy56aXAKCmNsZWFyCgojIEZpbmFsIG1lc3NhZ2UKZWNobyAi
-UFdBIHNldHVwIGNvbXBsZXRlZCBzdWNjZXNzZnVsbHkuIgoKc2xlZXAgMwojIyMjIyMjIyMjIyMK
-CiMgaW5zdGFsbCBCdXR0b24gCgpjbGVhcgoKIyBQYXRoIHRvIHRoZSBmb290ZXIuaHRtIGZpbGUK
-Rk9PVEVSX1BBVEg9Ii91c3IvbGliL2x1YS9sdWNpL3ZpZXcvdGhlbWVzL2FyZ29uL2Zvb3Rlci5o
-dG0iCgojIFZlcmlmeSBpZiB0aGUgZm9vdGVyLmh0bSBmaWxlIGV4aXN0cwppZiBbICEgLWYgIiRG
-T09URVJfUEFUSCIgXTsgdGhlbgogICAgZWNobyAiZm9vdGVyLmh0bSBub3QgZm91bmQgYXQgJEZP
-T1RFUl9QQVRILCBwbGVhc2UgY2hlY2sgdGhlIHBhdGggYW5kIHRyeSBhZ2Fpbi4iCiAgICBleGl0
-IDEKZmkKCiMgQ3JlYXRlIHRoZSBidXR0b25zIGZvbGRlciBpZiBpdCBkb2Vzbid0IGV4aXN0CkJV
-VFRPTlNfRk9MREVSPSIvd3d3L2x1Y2ktc3RhdGljL2FyZ29uL2J1dHRvbiIKbWtkaXIgLXAgIiRC
-VVRUT05TX0ZPTERFUiIKCiMgRG93bmxvYWQgdGhlIGltYWdlIGZvciB0aGUgYXBwbGUtdG91Y2gt
-aWNvbgpJTUFHRV9VUkxfMT0iaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL3BlZGl0
-eC9pcmFuSVBTL3JlZnMvaGVhZHMvbWFpbi8uZmlsZXMvdWkvYnV0dG9uL2FwcGxlLXRvdWNoLWlj
-b24ucG5nIgpJTUFHRV9QQVRIXzE9IiRCVVRUT05TX0ZPTERFUi9hcHBsZS10b3VjaC1pY29uLnBu
-ZyIKCiMgRG93bmxvYWQgdGhlIGltYWdlIGZvciB0aGUgcGFzc3dhbGwyIGJ1dHRvbgpJTUFHRV9V
-UkxfMj0iaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL3BlZGl0eC9pcmFuSVBTL3Jl
-ZnMvaGVhZHMvbWFpbi8uZmlsZXMvdWkvYnV0dG9uL3Bhc3N3YWxsMi5wbmciCklNQUdFX1BBVEhf
-Mj0iJEJVVFRPTlNfRk9MREVSL3Bhc3N3YWxsMi5wbmciCgojIERvd25sb2FkIHRoZSBpbWFnZSBm
-b3IgdGhlIGRhc2hib2FyZCBidXR0b24KSU1BR0VfVVJMXzM9Imh0dHBzOi8vcmF3LmdpdGh1YnVz
-ZXJjb250ZW50LmNvbS9wZWRpdHgvaXJhbklQUy9yZWZzL2hlYWRzL21haW4vLmZpbGVzL3VpL2J1
-dHRvbi9ybS5wbmciCklNQUdFX1BBVEhfMz0iJEJVVFRPTlNfRk9MREVSL3JtLnBuZyIKCiMgRG93
-bmxvYWQgdGhlIGltYWdlIGZvciB0aGUgcmVib290IGJ1dHRvbgpJTUFHRV9VUkxfND0iaHR0cHM6
-Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL3BlZGl0eC9pcmFuSVBTL3JlZnMvaGVhZHMvbWFp
-bi8uZmlsZXMvdWkvYnV0dG9uL3JlYm9vdC5wbmciCklNQUdFX1BBVEhfND0iJEJVVFRPTlNfRk9M
-REVSL3JlYm9vdC5wbmciCgojIERvd25sb2FkIHRoZSBpbWFnZSBmb3IgdGhlIHRlbGVncmFtIGJ1
-dHRvbgpJTUFHRV9VUkxfNT0iaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL3BlZGl0
-eC9pcmFuSVBTL3JlZnMvaGVhZHMvbWFpbi8uZmlsZXMvdWkvYnV0dG9uL3RsLnBuZyIKSU1BR0Vf
-UEFUSF81PSIkQlVUVE9OU19GT0xERVIvdGwucG5nIgoKIyBVc2Ugd2dldCB0byBkb3dubG9hZCB0
-aGUgaW1hZ2VzCmVjaG8gIkRvd25sb2FkaW5nIGltYWdlcy4uLiIKd2dldCAtcSAiJElNQUdFX1VS
-TF8xIiAtTyAiJElNQUdFX1BBVEhfMSIgJiYgZWNobyAiRG93bmxvYWRlZCBhcHBsZS10b3VjaC1p
-Y29uIGltYWdlIiB8fCBlY2hvICJGYWlsZWQgdG8gZG93bmxvYWQgYXBwbGUtdG91Y2gtaWNvbiBp
-bWFnZSIKd2dldCAtcSAiJElNQUdFX1VSTF8yIiAtTyAiJElNQUdFX1BBVEhfMiIgJiYgZWNobyAi
-RG93bmxvYWRlZCBwYXNzd2FsbDIgaW1hZ2UiIHx8IGVjaG8gIkZhaWxlZCB0byBkb3dubG9hZCBw
-YXNzd2FsbDIgaW1hZ2UiCndnZXQgLXEgIiRJTUFHRV9VUkxfMyIgLU8gIiRJTUFHRV9QQVRIXzMi
-ICYmIGVjaG8gIkRvd25sb2FkZWQgZGFzaGJvYXJkIGltYWdlIiB8fCBlY2hvICJGYWlsZWQgdG8g
-ZG93bmxvYWQgZGFzaGJvYXJkIGltYWdlIgp3Z2V0IC1xICIkSU1BR0VfVVJMXzQiIC1PICIkSU1B
-R0VfUEFUSF80IiAmJiBlY2hvICJEb3dubG9hZGVkIHJlYm9vdCBpbWFnZSIgfHwgZWNobyAiRmFp
-bGVkIHRvIGRvd25sb2FkIHJlYm9vdCBpbWFnZSIKd2dldCAtcSAiJElNQUdFX1VSTF81IiAtTyAi
-JElNQUdFX1BBVEhfNSIgJiYgZWNobyAiRG93bmxvYWRlZCB0ZWxlZ3JhbSBpbWFnZSIgfHwgZWNo
-byAiRmFpbGVkIHRvIGRvd25sb2FkIHRlbGVncmFtIGltYWdlIgoKIyBWZXJpZnkgaWYgdGhlIGlt
-YWdlcyB3ZXJlIGRvd25sb2FkZWQgc3VjY2Vzc2Z1bGx5CmlmIFsgISAtZiAiJElNQUdFX1BBVEhf
-MSIgXTsgdGhlbgogICAgZWNobyAiRmFpbGVkIHRvIGRvd25sb2FkIGltYWdlIGZvciBhcHBsZS10
-b3VjaC1pY29uIGZyb20gJElNQUdFX1VSTF8xIgogICAgZXhpdCAxCmZpCgppZiBbICEgLWYgIiRJ
-TUFHRV9QQVRIXzIiIF07IHRoZW4KICAgIGVjaG8gIkZhaWxlZCB0byBkb3dubG9hZCBpbWFnZSBm
-b3IgcGFzc3dhbGwyIGJ1dHRvbiBmcm9tICRJTUFHRV9VUkxfMiIKICAgIGV4aXQgMQpmaQoKaWYg
-WyAhIC1mICIkSU1BR0VfUEFUSF8zIiBdOyB0aGVuCiAgICBlY2hvICJGYWlsZWQgdG8gZG93bmxv
-YWQgaW1hZ2UgZm9yIGRhc2hib2FyZCBidXR0b24gZnJvbSAkSU1BR0VfVVJMXzMiCiAgICBleGl0
-IDEKZmkKCmlmIFsgISAtZiAiJElNQUdFX1BBVEhfNCIgXTsgdGhlbgogICAgZWNobyAiRmFpbGVk
-IHRvIGRvd25sb2FkIGltYWdlIGZvciByZWJvb3QgYnV0dG9uIGZyb20gJElNQUdFX1VSTF80Igog
-ICAgZXhpdCAxCmZpCgppZiBbICEgLWYgIiRJTUFHRV9QQVRIXzUiIF07IHRoZW4KICAgIGVjaG8g
-IkZhaWxlZCB0byBkb3dubG9hZCBpbWFnZSBmb3IgdGVsZWdyYW0gYnV0dG9uIGZyb20gJElNQUdF
-X1VSTF81IgogICAgZXhpdCAxCmZpCgojIEFkZCBDU1MgYW5kIEhUTUwgZm9yIGZsb2F0aW5nIGJ1
-dHRvbiB3aXRoIGxvY2FsIGltYWdlIGluIEx1Q0kgZm9vdGVyCmNhdCA8PCBFT0YgPj4gIiRGT09U
-RVJfUEFUSCIKPHN0eWxlPgogICAgI2Zsb2F0aW5nLWJ1dHRvbiB7CiAgICAgICAgcG9zaXRpb246
-IGZpeGVkOwogICAgICAgIGJvdHRvbTogMjBweDsKICAgICAgICByaWdodDogMjBweDsKICAgICAg
-ICB3aWR0aDogODBweDsgIC8qIEFkanVzdGVkIHNpemUgKi8KICAgICAgICBoZWlnaHQ6IDgwcHg7
-ICAvKiBBZGp1c3RlZCBzaXplICovCiAgICAgICAgYm9yZGVyLXJhZGl1czogNTAlOwogICAgICAg
-IGJveC1zaGFkb3c6IDBweCAycHggMTBweCByZ2JhKDAsIDAsIDAsIDAuMyk7CiAgICAgICAgei1p
-bmRleDogMTAwMDsKICAgICAgICBjdXJzb3I6IHBvaW50ZXI7CiAgICAgICAgYmFja2dyb3VuZC1j
-b2xvcjogdHJhbnNwYXJlbnQ7CiAgICAgICAgYm9yZGVyOiBub25lOwogICAgfQoKICAgICNmbG9h
-dGluZy1idXR0b24gaW1nIHsKICAgICAgICB3aWR0aDogMTAwJTsKICAgICAgICBoZWlnaHQ6IDEw
-MCU7CiAgICAgICAgYm9yZGVyLXJhZGl1czogNTAlOwogICAgICAgIG9iamVjdC1maXQ6IGNvdmVy
-OyAvKiBNYWtlIGltYWdlIGNvdmVyIHRoZSBidXR0b24gKi8KICAgIH0KCiAgICAuc3ViLWJ1dHRv
-bnMgewogICAgICAgIHBvc2l0aW9uOiBmaXhlZDsKICAgICAgICBib3R0b206IC0yNDBweDsgLyog
-SW5pdGlhbGx5IG91dCBvZiB2aWV3LCAzIGljb24gc2l6ZXMgYmVsb3cgKi8KICAgICAgICByaWdo
-dDogMjBweDsKICAgICAgICB6LWluZGV4OiA5OTk7CiAgICAgICAgZmxleC1kaXJlY3Rpb246IGNv
-bHVtbjsKICAgICAgICBkaXNwbGF5OiBmbGV4OwogICAgICAgIGFsaWduLWl0ZW1zOiBjZW50ZXI7
-CiAgICAgICAgdHJhbnNmb3JtOiB0cmFuc2xhdGVZKDEwMCUpOyAvKiBJbml0aWFsbHkgb3V0IG9m
-IHZpZXcgKi8KICAgICAgICB0cmFuc2l0aW9uOiB0cmFuc2Zvcm0gMC4zcyBlYXNlLWluLW91dDsK
-ICAgICAgICBvdmVyZmxvdzogaGlkZGVuOwogICAgfQoKICAgIC5zdWItYnV0dG9ucyBidXR0b24g
-ewogICAgICAgIHdpZHRoOiA4MHB4OyAgLyogQWRqdXN0ZWQgc2l6ZSAqLwogICAgICAgIGhlaWdo
-dDogODBweDsgIC8qIEFkanVzdGVkIHNpemUgKi8KICAgICAgICBib3JkZXItcmFkaXVzOiA1MCU7
-CiAgICAgICAgYm9yZGVyOiBub25lOwogICAgICAgIGJhY2tncm91bmQtY29sb3I6ICNmZmZmZmY7
-CiAgICAgICAgYm94LXNoYWRvdzogMHB4IDJweCAxMHB4IHJnYmEoMCwgMCwgMCwgMC4zKTsKICAg
-ICAgICBjdXJzb3I6IHBvaW50ZXI7CiAgICAgICAgbWFyZ2luLXRvcDogMTBweDsgIC8qIEluY3Jl
-YXNlZCBtYXJnaW4gZm9yIG1vcmUgc3BhY2UgYmV0d2VlbiBidXR0b25zICovCiAgICAgICAgdHJh
-bnNpdGlvbjogdHJhbnNmb3JtIDAuM3MgZWFzZS1pbi1vdXQ7CiAgICAgICAgb3ZlcmZsb3c6IGhp
-ZGRlbjsKICAgIH0KCiAgICAuc3ViLWJ1dHRvbnMgYnV0dG9uIGltZyB7CiAgICAgICAgd2lkdGg6
-IDEwMCU7CiAgICAgICAgaGVpZ2h0OiAxMDAlOwogICAgICAgIGJvcmRlci1yYWRpdXM6IDUwJTsK
-ICAgICAgICBvYmplY3QtZml0OiBjb3ZlcjsgLyogTWFrZSBpbWFnZSBjb3ZlciB0aGUgYnV0dG9u
-ICovCiAgICB9CgogICAgLyogQ3VzdG9tIGNvbG9ycyBmb3Igc3ViLWJ1dHRvbnMgKi8KICAgIC5z
-dWItYnV0dG9ucyBidXR0b24ucGFzc3dhbGwyIHsKICAgICAgICBiYWNrZ3JvdW5kLWNvbG9yOiAj
-Mjk1NjJlOwogICAgfQoKICAgIC5zdWItYnV0dG9ucyBidXR0b24ucmVib290IHsKICAgICAgICBi
-YWNrZ3JvdW5kLWNvbG9yOiAjZjU1NDU0OwogICAgfQoKICAgIC5zdWItYnV0dG9ucyBidXR0b24u
-dGVsZWdyYW0gewogICAgICAgIGJhY2tncm91bmQtY29sb3I6ICMwMGFkZWM7CiAgICB9CgogICAg
-LnN1Yi1idXR0b25zIGJ1dHRvbi5kYXNoYm9hcmQgewogICAgICAgIGJhY2tncm91bmQtY29sb3I6
-ICMyOTU2MmU7CiAgICB9CgogICAgLyogQW5pbWF0aW9uIGZvciBvcGVuaW5nIHRoZSBidXR0b25z
-ICovCiAgICAuc3ViLWJ1dHRvbnMub3BlbiB7CiAgICAgICAgYm90dG9tOiAxODBweDsgLyogTW92
-ZSAxODBweCB1cCB3aGVuIG9wZW5lZCAqLwogICAgICAgIHRyYW5zZm9ybTogdHJhbnNsYXRlWSgw
-KTsKICAgIH0KPC9zdHlsZT4KCjxkaXYgaWQ9ImZsb2F0aW5nLWJ1dHRvbiIgb25jbGljaz0idG9n
-Z2xlQnV0dG9ucygpIj4KICAgIDxpbWcgc3JjPSIvbHVjaS1zdGF0aWMvYXJnb24vYnV0dG9uL2Fw
-cGxlLXRvdWNoLWljb24ucG5nIiBhbHQ9IlBlRGl0WCBCdXR0b24iPgo8L2Rpdj4KCjxkaXYgY2xh
-c3M9InN1Yi1idXR0b25zIiBpZD0ic3ViLWJ1dHRvbnMiPgogICAgPCEtLSBQYXNzd2FsbDIgQnV0
-dG9uIC0tPgogICAgPGJ1dHRvbiBjbGFzcz0icGFzc3dhbGwyIiBvbmNsaWNrPSJ3aW5kb3cubG9j
-YXRpb24uaHJlZj0nL2NnaS1iaW4vbHVjaS9hZG1pbi9zZXJ2aWNlcy9wYXNzd2FsbDInIj4KICAg
-ICAgICA8aW1nIHNyYz0iL2x1Y2ktc3RhdGljL2FyZ29uL2J1dHRvbi9wYXNzd2FsbDIucG5nIiBh
-bHQ9IlBhc3N3YWxsMiBCdXR0b24iPgogICAgPC9idXR0b24+CiAgICA8IS0tIERhc2hib2FyZCBC
-dXR0b24gLS0+CiAgICA8YnV0dG9uIGNsYXNzPSJkYXNoYm9hcmQiIG9uY2xpY2s9IndpbmRvdy5s
-b2NhdGlvbi5ocmVmPScvY2dpLWJpbi9sdWNpL2FkbWluL3N0YXR1cy9vdmVydmlldyciPgogICAg
-ICAgIDxpbWcgc3JjPSIvbHVjaS1zdGF0aWMvYXJnb24vYnV0dG9uL3JtLnBuZyIgYWx0PSJEYXNo
-Ym9hcmQgQnV0dG9uIj4KICAgIDwvYnV0dG9uPgogICAgPCEtLSBSZWJvb3QgQnV0dG9uIC0tPgog
-ICAgPGJ1dHRvbiBjbGFzcz0icmVib290IiBvbmNsaWNrPSJ3aW5kb3cubG9jYXRpb24uaHJlZj0n
-L2NnaS1iaW4vbHVjaS9hZG1pbi9zeXN0ZW0vcmVib290JyI+CiAgICAgICAgPGltZyBzcmM9Ii9s
-dWNpLXN0YXRpYy9hcmdvbi9idXR0b24vcmVib290LnBuZyIgYWx0PSJSZWJvb3QgQnV0dG9uIj4K
-ICAgIDwvYnV0dG9uPgogICAgPCEtLSBUZWxlZ3JhbSBCdXR0b24gLS0+CiAgICA8YnV0dG9uIGNs
-YXNzPSJ0ZWxlZ3JhbSIgb25jbGljaz0id2luZG93Lm9wZW4oJ2h0dHBzOi8vdC5tZS9wZWRpdHgn
-LCAnX2JsYW5rJykiPgogICAgICAgIDxpbWcgc3JjPSIvbHVjaS1zdGF0aWMvYXJnb24vYnV0dG9u
-L3RsLnBuZyIgYWx0PSJUZWxlZ3JhbSBCdXR0b24iPgogICAgPC9idXR0b24+CjwvZGl2PgoKPHNj
-cmlwdD4KICAgIGZ1bmN0aW9uIHRvZ2dsZUJ1dHRvbnMoKSB7CiAgICAgICAgdmFyIHN1YkJ1dHRv
-bnMgPSBkb2N1bWVudC5nZXRFbGVtZW50QnlJZCgnc3ViLWJ1dHRvbnMnKTsKICAgICAgICBzdWJC
-dXR0b25zLmNsYXNzTGlzdC50b2dnbGUoJ29wZW4nKTsKICAgIH0KPC9zY3JpcHQ+CkVPRgoKIyBS
-ZXN0YXJ0IHVodHRwZCB0byBhcHBseSBjaGFuZ2VzCi9ldGMvaW5pdC5kL3VodHRwZCByZXN0YXJ0
-CgpjbGVhcgoKZWNobyAiUGVEaXRYIGJ1dHRvbiB3aXRoIHN1Yi1idXR0b25zIGFkZGVkIHN1Y2Nl
-c3NmdWxseS4gUGxlYXNlIHJlZnJlc2ggTHVDSSB0byB2aWV3IHRoZSBjaGFuZ2VzLiIKc2xlZXAg
-MgojIyMjIyMjIyMjIyMKCiMgQ2xlYW4gdXAgZG93bmxvYWRlZCBmaWxlcwplY2hvICJDbGVhbmlu
-ZyB1cCBkb3dubG9hZGVkIGZpbGVzLi4uIgpybSAtZiAiJHRoZW1lX2ZpbGUiICIkY29uZmlnX2Zp
-bGUiICIkbmV3X3N2Z19maWxlIiAiJG5ld19iZ19maWxlIgoKIyBDbGVhciBicm93c2VyIGNhY2hl
-IHJlbWluZGVyCmVjaG8gLWUgIlBsZWFzZSBjbGVhciB5b3VyIGJyb3dzZXIgY2FjaGUgdG8gc2Vl
-IHRoZSB1cGRhdGVkIGltYWdlcy4iCgpjbGVhcgplY2hvIC1lICIke0dSRUVOfUZpcnN0IHJlZm9y
-bSAuLi4gZG9uZSEke05DfSIKCiMgVmVyaWZ5IGluc3RhbGxhdGlvbiBhbmQgcmVwbGFjZW1lbnRz
-CmVjaG8gLWUgIlxuVmVyaWZpY2F0aW9uIFJlc3VsdHM6IgppZiBvcGtnIGxpc3QtaW5zdGFsbGVk
-IHwgZ3JlcCAtcSAibHVjaS10aGVtZS1hcmdvbiI7IHRoZW4KICAgIGVjaG8gLWUgIiR7R1JFRU59
-VGhlbWUgaW5zdGFsbGVkIHN1Y2Nlc3NmdWxseSDinIUgT0ske05DfSIKZWxzZQogICAgZWNobyAt
-ZSAiJHtSRUR9VGhlbWUgaW5zdGFsbGF0aW9uIGZhaWxlZCDinYwgRkFJTEVEJHtOQ30iCmZpCgpp
-ZiBvcGtnIGxpc3QtaW5zdGFsbGVkIHwgZ3JlcCAtcSAibHVjaS1hcHAtYXJnb24tY29uZmlnIjsg
-dGhlbgogICAgZWNobyAtZSAiJHtHUkVFTn1Db25maWcgaW5zdGFsbGVkIHN1Y2Nlc3NmdWxseSDi
-nIUgT0ske05DfSIKZWxzZQogICAgZWNobyAtZSAiJHtSRUR9Q29uZmlnIGluc3RhbGxhdGlvbiBm
-YWlsZWQg4p2MIEZBSUxFRCR7TkN9IgpmaQoKaWYgWyAtZiAiJHN2Z19wYXRoIiBdOyB0aGVuCiAg
-ICBlY2hvIC1lICIke0dSRUVOfVNWRyBpbWFnZSByZXBsYWNlZCBzdWNjZXNzZnVsbHkg4pyFIE9L
-JHtOQ30iCmVsc2UKICAgIGVjaG8gLWUgIiR7UkVEfVNWRyBpbWFnZSByZXBsYWNlbWVudCBmYWls
-ZWQg4p2MIEZBSUxFRCR7TkN9IgpmaQoKaWYgWyAtZiAiJGJnX3BhdGgiIF07IHRoZW4KICAgIGVj
-aG8gLWUgIiR7R1JFRU59QmFja2dyb3VuZCBpbWFnZSByZXBsYWNlZCBzdWNjZXNzZnVsbHkg4pyF
-IE9LJHtOQ30iCmVsc2UKICAgIGVjaG8gLWUgIiR7UkVEfUJhY2tncm91bmQgaW1hZ2UgcmVwbGFj
-ZW1lbnQgZmFpbGVkIOKdjCBGQUlMRUQke05DfSIKZmkKCmlmIFsgLWYgIiRmYXZpY29uX3BhdGgi
-IF07IHRoZW4KICAgIGVjaG8gLWUgIiR7R1JFRU59RmF2aWNvbiByZXBsYWNlZCBzdWNjZXNzZnVs
-bHkg4pyFIE9LJHtOQ30iCmVsc2UKICAgIGVjaG8gLWUgIiR7UkVEfUZhdmljb24gcmVwbGFjZW1l
-bnQgZmFpbGVkIOKdjCBGQUlMRUQke05DfSIKZmkKCiMjU2Nhbm5pbmcKCi4gL2V0Yy9vcGVud3J0
-X3JlbGVhc2UKCmVjaG8gLWUgIiR7TUFHRU5UQX0gCl9fX19fX18gICAgICAgICAgIF9fX19fX18g
-IF9fICAgX18gICAgIF9fICAgIF9fICAgICAgICAgICAgX18gICAgICAgICAgCnwgICAgICAgXCAg
-ICAgICAgIHwgICAgICAgXHwgIFwgfCAgXCAgIHwgIFwgIHwgIFwgICAgICAgICAgfCAgXCAgICAg
-ICAgIAp8IOKWk+KWk+KWk+KWk+KWk+KWk+KWk1wgX19fX19fIHwg4paT4paT4paT4paT4paT4paT
-4paTXFzilpPilpNffCDilpPilpNfICB8IOKWk+KWkyAgfCDilpPilpMgX19fX19fICBffCDilpPi
-lpNfICAgICAgICAKfCDilpPilpNfXy8g4paT4paTLyAgICAgIFx8IOKWk+KWkyAgfCDilpPilpMg
-IFwgICDilpPilpMgXCAgXOKWk+KWk1wvICDilpPilpMvICAgICAgXHwgICDilpPilpMgXCAgICAg
-ICAKfCDilpPilpMgICAg4paT4paTICDilpPilpPilpPilpPilpPilpNcIOKWk+KWkyAgfCDilpPi
-lpMg4paT4paTXOKWk+KWk+KWk+KWk+KWk+KWkyAgID7ilpPilpMgIOKWk+KWk3wgIOKWk+KWk+KW
-k+KWk+KWk+KWk1xc4paT4paT4paT4paT4paT4paTICAgICAgIAp8IOKWk+KWk+KWk+KWk+KWk+KW
-k+KWk3wg4paT4paTICAgIOKWk+KWkyDilpPilpMgIHwg4paT4paTIOKWk+KWkyB8IOKWk+KWkyBf
-XyAvICDilpPilpPilpPilpNcfCDilpPilpMgICBc4paT4paTIHwg4paT4paTIF9fICAgICAgCnwg
-4paT4paTICAgICB8IOKWk+KWk+KWk+KWk+KWk+KWk+KWk+KWkyDilpPilpNfXy8g4paT4paTIOKW
-k+KWkyB8IOKWk+KWk3wgIFwgIOKWk+KWkyBc4paT4paTXCDilpPilpMgICAgICAgfCDilpPilpN8
-ICBcICAgICAKfCDilpPilpMgICAgICBc4paT4paTICAgICBcIOKWk+KWkyAgICDilpPilpMg4paT
-4paTICBc4paT4paTICDilpPilpMg4paT4paTICB8IOKWk+KWkyDilpPilpMgICAgICAgIFzilpPi
-lpMgIOKWk+KWkyAgICAgCiBc4paT4paTICAgICAgIFzilpPilpPilpPilpPilpPilpPilpNc4paT
-4paT4paT4paT4paT4paT4paTIFzilpPilpMgICBc4paT4paT4paT4paTIFzilpPilpMgICBc4paT
-4paTXOKWk+KWkyAgICAgICAgIFzilpPilpPilpPilpMgICAgICAKICAgICAgICAgICAgICAgICAg
-ICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
-ICAgICAgICAgICAgICAgICBQIEEgUyBTIFcgQSBMIEwgJHtOQ30iCkVQT0w9YGNhdCAvdG1wL3N5
-c2luZm8vbW9kZWxgCmVjaG8gIiAtIE1vZGVsIDogJEVQT0wiCmVjaG8gIiAtIFN5c3RlbSBWZXIg
-OiAkRElTVFJJQl9SRUxFQVNFIgplY2hvICIgLSBTeXN0ZW0gQXJjaCA6ICRESVNUUklCX0FSQ0gi
-CgojIFJFU1VMVD1gZWNobyAiJERJU1RSSUJfUkVMRUFTRSIgfCBncmVwIC1vIDIzIHwgc2VkIC1u
-ICcxcCdgCgojIGlmIFsgIiRSRVNVTFQiID09ICIyMyIgXTsgdGhlbgoKCmVjaG8gIiAiClJFU1VM
-VFQ9YGxzIC9ldGMvaW5pdC5kL3Bhc3N3YWxsIDI+L2Rldi9udWxsYAppZiBbICIkUkVTVUxUVCIg
-PT0gIi9ldGMvaW5pdC5kL3Bhc3N3YWxsIiBdOyB0aGVuCgplY2hvIC1lICIke1lFTExPV30gPiA0
-LiR7TkN9ICR7R1JFRU59IFVwZGF0ZSBZb3VyIFBhc3N3YWxsICR7TkN9IgoKIGVsc2UKICAgICAg
-ICAgICAKc2xlZXAgMQoKZmkKClJFU1VMVFRUPWBscyAvZXRjL2luaXQuZC9wYXNzd2FsbDIgMj4v
-ZGV2L251bGxgCmlmIFsgIiRSRVNVTFRUVCIgPT0gIi9ldGMvaW5pdC5kL3Bhc3N3YWxsMiIgXTsg
-dGhlbgoKZWNobyAtZSAiJHtZRUxMT1d9ID4gNS4ke05DfSAke0dSRUVOfSBVcGRhdGUgWW91ciBQ
-YXNzd2FsbDIgJHtOQ30iCgogZWxzZQogICAgICAgICAgIApzbGVlcCAxCgpmaQoKZWNobyAtZSAi
-JHtHUkVFTn0gMS4ke05DfSAke0NZQU59IEluc3RhbGwgUGFzc3dhbGwgMSAke05DfSIKZWNobyAt
-ZSAiJHtHUkVFTn0gMi4ke05DfSAke0NZQU59IEluc3RhbGwgUGFzc3dhbGwgMiAke05DfSIKZWNo
-byAtZSAiJHtHUkVFTn0gMy4ke05DfSAke0JMVUV9IEluc3RhbGwgUGFzc3dhbGwgMSArIDIgJHtO
-Q30iCmVjaG8gLWUgIiR7R1JFRU59IDExLiR7TkN9ICR7QkxVRX1JbnN0YWxsIFBhc3N3YWxsIDIg
-KyBUZW1wb3JhcnkgY29yZSAke05DfSIKZWNobyAtZSAiJHtHUkVFTn0gNi4ke05DfSAke01BR0VO
-VEF9IEVhc3kgRXhyb290IEZvciByb3V0ZXJzIHRoYXQgaGF2ZSBVU0IgJHtOQ30iCmVjaG8gLWUg
-IiR7R1JFRU59IDcuJHtOQ30gJHtSRUR9IEV4dHJhIHRvb2xzICR7TkN9IgplY2hvIC1lICIke0dS
-RUVOfSA4LiR7TkN9ICR7Q1lBTn0gVW5pbnN0YWxsIGFsbCBUb29scyAke05DfSIKZWNobyAtZSAi
-JHtZRUxMT1d9IDkuJHtOQ30gJHtZRUxMT1d9IENsb3VkRmxhcmUgSVAgU2Nhbm5lciAke05DfSIK
-ZWNobyAtZSAiJHtSRUZ9IDAuJHtOQ30gJHtSRUR9IEVYSVQgJHtOQ30iCmVjaG8gIiIKCgplY2hv
-ICIgIgogcmVhZCAtcCAiIC1TZWxlY3QgUGFzc3dhbGwgT3B0aW9uIDogIiBjaG9pY2UKCiAgICBj
-YXNlICRjaG9pY2UgaW4KCjEpCgplY2hvICJJbnN0YWxsaW5nIFBhc3N3YWxsIDEgLi4uIgoKc2xl
-ZXAgMgoKcm0gLWYgcGFzc3dhbGwuc2ggJiYgd2dldCBodHRwczovL2dpdGh1Yi5jb20vcGVkaXR4
-L2lyYW5JUFMvcmF3L3JlZnMvaGVhZHMvbWFpbi8uZmlsZXMvcGFzc3dhbGwuc2ggJiYgY2htb2Qg
-Nzc3IHBhc3N3YWxsLnNoICYmIHNoIHBhc3N3YWxsLnNoCgoKOzsKCjIpCiAgICAgICAgCmVjaG8g
-Ikluc3RhbGxpbmcgUGFzc3dhbGwgMiAuLi4iCgpzbGVlcCAyCgpybSAtZiBwYXNzd2FsbDIuc2gg
-JiYgd2dldCBodHRwczovL2dpdGh1Yi5jb20vcGVkaXR4L2lyYW5JUFMvcmF3L3JlZnMvaGVhZHMv
-bWFpbi8uZmlsZXMvcGFzc3dhbGwyLnNoICYmIGNobW9kIDc3NyBwYXNzd2FsbDIuc2ggJiYgc2gg
-cGFzc3dhbGwyLnNoCgogCjs7Cgo5KQogICAgICAgIAplY2hvICJJbnN0YWxsaW5nIENsb3VkRmxh
-cmUgSVAgU0NBTiAuLi4iCgpvcGtnIHVwZGF0ZQoKb3BrZyBpbnN0YWxsIGJhc2gKCm9wa2cgaW5z
-dGFsbCBjdXJsCgpjdXJsIC1rc1NMIGh0dHBzOi8vZ2l0bGFiLmNvbS9yd2tneWcvY2Rub3B3L3Jh
-dy9tYWluL2Nkbm9wdy5zaCAtbyBjZG5vcHcuc2ggJiYgYmFzaCBjZG5vcHcuc2gKIAo7OwoKCjQp
-CiAgICAgICAgCmVjaG8gIlVwZGF0aW5nIFBhc3N3YWxsIHYxIgoKb3BrZyB1cGRhdGUKCm9wa2cg
-aW5zdGFsbCBsdWNpLWFwcC1wYXNzd2FsbAogCjs7CgoKNSkKICAgICAgICAKZWNobyAiVXBkYXRp
-bmcgUGFzc3dhbGwgdjIiCgpvcGtnIHVwZGF0ZQoKb3BrZyBpbnN0YWxsIGx1Y2ktYXBwLXBhc3N3
-YWxsMgogCjs7CgoKMCkKICAgICAgICAgICAgZWNobyAiIgogICAgICAgICAgICBlY2hvIC1lICIk
-e0dSRUVOfUV4aXRpbmcuLi4ke05DfSIKICAgICAgICAgICAgZXhpdCAwCgogICAgICAgICAgIHJl
-YWQgLXMgLW4gMQogICAgICAgICAgIDs7Cgo2KQogICAgICAgIAplY2hvICJFYXN5IEV4cm9vdCBP
-cGVud3J0IEZvciByb3V0ZXJzIHRoYXQgaGF2ZSBVU0IgLi4uIgoKb3BrZyB1cGRhdGUKCm9wa2cg
-aW5zdGFsbCBiYXNoCgpvcGtnIGluc3RhbGwgY3VybAoKY3VybCAta3NTTCBodHRwczovL2dpdGh1
-Yi5jb20vcGVkaXR4L2V6ZXhyb290L3Jhdy9yZWZzL2hlYWRzL21haW4vZXpleHJvb3Quc2ggLW8g
-ZXpleHJvb3Quc2ggJiYgYmFzaCBlemV4cm9vdC5zaAogCjs7Cgo3KQogICAgICAgIAplY2hvICJF
-eHRyYSBUb29scyAoV2lmaSBzZXR0aW5ncyBhbmQgY2xlYW51cCBtZW1vcnkpIC4uLiIKCmN1cmwg
-LWtzU0wgaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL3BlZGl0eC9pcmFuSVBTL3Jl
-ZnMvaGVhZHMvbWFpbi8uZmlsZXMvZXh0cmFzL2V4dHJhLnNoIC1vIGV4dHJhLnNoICYmIGJhc2gg
-ZXh0cmEuc2gKIAo7OwoKOCkKICAgICAgICAKZWNobyAiVW5pbnN0YWxsIHRvb2xzIC4uLiIKCmN1
-cmwgLWtzU0wgaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL3BlZGl0eC9pcmFuSVBT
-L3JlZnMvaGVhZHMvbWFpbi8uZmlsZXMvY29yZS91bmluc3RhbGwuc2ggLW8gdW5pbnN0YWxsLnNo
-ICYmIGJhc2ggdW5pbnN0YWxsLnNoCiAKOzsKCgogMykKCmVjaG8gIkluc3RhbGxpbmcgUGFzc3dh
-bGwgMSBhbmQgMiAuLi4iCgpzbGVlcCAyCgpybSAtZiBwYXNzd2FsbGR1ZS5zaCAmJiB3Z2V0IGh0
-dHBzOi8vZ2l0aHViLmNvbS9wZWRpdHgvaXJhbklQUy9yYXcvcmVmcy9oZWFkcy9tYWluLy5maWxl
-cy9wYXNzd2FsbGR1ZS5zaCAmJiBjaG1vZCA3NzcgcGFzc3dhbGxkdWUuc2ggJiYgc2ggcGFzc3dh
-bGxkdWUuc2gKCgo7OwoKMTEpCgplY2hvICJJbnN0YWxsaW5nIFBhc3N3YWxsIDIgV2l0aCBUZW1w
-b3JhcnkgQ29yZSAuLi4iCgpzbGVlcCAyCgpybSAtZiB0ZW1wY29yZS5zaCAmJiB3Z2V0IGh0dHBz
-Oi8vcmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbS9wZWRpdHgvaXJhbklQUy9yZWZzL2hlYWRzL21h
-aW4vLmZpbGVzL2NvcmUvdGVtcGNvcmUuc2ggJiYgY2htb2QgNzc3IHRlbXBjb3JlLnNoICYmIHNo
-IHRlbXBjb3JlLnNoCgoKOzsKCiAqKQogICAgICAgICAgIGVjaG8gIiAgSW52YWxpZCBvcHRpb24g
-U2VsZWN0ZWQgISAiCiAgICAgICAgICAgZWNobyAiICIKICAgICAgICAgICBlY2hvIC1lICIgIFBy
-ZXNzICR7UkVEfUVOVEVSJHtOQ30gdG8gY29udGludWUiCiAgICAgICAgICAgZXhpdCAwCiAgICAg
-ICAgICAgcmVhZCAtcyAtbiAxCiAgICAgICAgICAgOzsKICAgICAgZXNhYwo=
+#!/bin/bash
+RED='\033[0;31m'
+GREEN='\033[0;32m'
+YELLOW='\033[1;33m'
+BLUE='\033[0;34m'
+MAGENTA='\033[0;35m'
+CYAN='\033[0;36m'
+GRAY='\033[0;37m'
+NC='\033[0m' # No Color
+
+rm -f /etc/hosts
+echo "185.199.111.133 raw.githubusercontent.com" >> /etc/hosts
+echo "216.105.38.12 master.dl.sourceforge.net" >> /etc/hosts
+echo "151.101.2.132 downloads.openwrt.org" >> /etc/hosts
+
+echo "Running as root..."
+sleep 2
+clear
+
+uci set system.@system[0].zonename='Asia/Tehran'
+
+uci set system.@system[0].timezone='<+0330>-3:30'
+
+uci commit
+
+/sbin/reload_config
+
+cp ezp.sh /sbin/passwall
+
+# First Reform
+theme_url="https://github.com/peditx/PeDitXrt-rebirth/raw/main/apps/luci-theme-argon_2.3_all.ipk"
+config_url="https://github.com/peditx/PeDitXrt-rebirth/raw/main/apps/luci-app-argon-config_0.9_all.ipk"
+new_svg_url="https://raw.githubusercontent.com/peditx/iranIPS/refs/heads/main/.files/lowspc/main/app1.svg"
+new_bg_url="https://raw.githubusercontent.com/peditx/iranIPS/a7ae889a9118cd91aa5d8e3e580628c2b6719a7b/.files/lowspc/main/peds.jpg"
+favicon_url="https://raw.githubusercontent.com/peditx/iranIPS/refs/heads/main/.files/lowspc/main/favicon.ico"
+
+svg_path="/www/luci-static/argon/img/argon.svg"
+bg_path="/www/luci-static/argon/img/bg1.jpg"
+favicon_path="/www/luci-static/argon/favicon.ico"
+
+theme_file="luci-theme-argon_2.3_all.ipk"
+config_file="luci-app-argon-config_0.9_all.ipk"
+new_svg_file="argon_replacement.svg"
+new_bg_file="bg1_replacement.jpg"
+
+# Update repositories and install dependencies
+opkg update
+opkg install curl luci-compat 
+clear
+opkg install luci-lib-ipkg
+sleep 2
+clear
+opkg install luci-mod-dashboard
+echo -e "${GREEN}Dashboard Installed ✅ OK${NC}"
+sleep 2
+clear
+
+# Download and install theme and config files
+echo "Downloading theme and config files..."
+wget -O "$theme_file" "$theme_url" || { echo "Failed to download theme file"; exit 1; }
+wget -O "$config_file" "$config_url" || { echo "Failed to download config file"; exit 1; }
+
+# Install packages with architecture compatibility check
+if ! opkg install "$theme_file"; then
+    opkg install "$theme_file" --force-depends
+fi
+
+if ! opkg install "$config_file"; then
+    opkg install "$config_file" --force-depends
+fi
+
+# Download new images
+echo "Downloading new images..."
+wget -O "$new_svg_file" "$new_svg_url" || { echo "Failed to download SVG file"; exit 1; }
+wget -O "$new_bg_file" "$new_bg_url" || { echo "Failed to download background image"; exit 1; }
+
+# Replace argon.svg
+if [ -d "$(dirname "$svg_path")" ]; then
+    mv "$new_svg_file" "$svg_path" && echo "argon.svg rebranded!" || echo "Failed to replace argon.svg"
+else
+    echo "$(dirname "$svg_path") not found"
+fi
+
+# Replace bg1.jpg
+if [ -d "$(dirname "$bg_path")" ]; then
+    mv "$new_bg_file" "$bg_path" && echo "bg1.jpg rebranded!" || echo "Failed to replace bg1.jpg"
+else
+    echo "$(dirname "$bg_path") not found"
+fi
+
+# Download and replace favicon.ico
+echo "Downloading favicon..."
+wget -O "$favicon_path" "$favicon_url" || { echo "Failed to download favicon"; exit 1; }
+echo "Favicon downloaded and replaced!"
+
+
+# Restart uhttpd service to apply changes
+echo "Restarting uhttpd service..."
+/etc/init.d/uhttpd restart
+
+# Setup PWA ability
+clear
+
+# Define variables
+HEADER_FILE="/usr/lib/lua/luci/view/themes/argon/header.htm"
+HEADER_LOGIN_FILE="/usr/lib/lua/luci/view/themes/argon/header_login.htm"
+ICONS_ZIP_URL="https://raw.githubusercontent.com/peditx/iranIPS/refs/heads/main/.files/ui/favicon.zip"
+TEMP_DIR="/tmp/touch-icons"
+EXTRACT_DIR="/www/luci-static/argon/icons"
+FAVICON_FILE="/www/luci-static/argon/favicon.ico"
+MANIFEST_FILE="/www/luci-static/argon/manifest.json"
+
+# Download the icons zip file
+echo "Downloading PWA icons..."
+wget -q "$ICONS_ZIP_URL" -O /tmp/touch-icons.zip
+
+# Extract icons
+echo "Extracting touch icons..."
+unzip -q /tmp/touch-icons.zip -d $TEMP_DIR
+
+# Create the destination directory if it doesn't exist
+echo "Creating destination directory..."
+mkdir -p $EXTRACT_DIR
+
+# Move extracted icons to the destination directory
+echo "Moving icons to destination..."
+mv $TEMP_DIR/* $EXTRACT_DIR/
+
+# Replace favicon.ico with the one from icons folder
+echo "Replacing favicon.ico..."
+cp "$EXTRACT_DIR/favicon.ico" "$FAVICON_FILE"
+
+# Create the manifest.json file
+echo "Creating manifest.json..."
+cat > $MANIFEST_FILE <<EOL
+{
+  "name": "PeDitXrt PWA",
+  "short_name": "PeDitXrt",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#4CAF50",
+  "icons": [
+    {
+      "src": "/luci-static/argon/icons/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/luci-static/argon/icons/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/luci-static/argon/icons/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    }
+  ]
+}
+EOL
+
+# Update the HTML header for PWA in header.htm
+echo "Updating HTML header for PWA..."
+sed -i 's|<%=media%>/icon/|/luci-static/argon/icons/|g' "$HEADER_FILE"
+sed -i "s|</head>|<link rel=\"manifest\" href=\"/luci-static/argon/manifest.json\">\n<link rel=\"icon\" type=\"image/png\" sizes=\"192x192\" href=\"/luci-static/argon/icons/icon-192x192.png\">\n<link rel=\"icon\" type=\"image/png\" sizes=\"512x512\" href=\"/luci-static/argon/icons/icon-512x512.png\">\n<link rel=\"apple-touch-icon\" href=\"/luci-static/argon/icons/apple-touch-icon.png\">\n</head>|" "$HEADER_FILE"
+
+# Update the HTML header for PWA in header_login.htm
+echo "Updating login header for PWA..."
+sed -i 's|<%=media%>/icon/|/luci-static/argon/icons/|g' "$HEADER_LOGIN_FILE"
+sed -i "s|</head>|<link rel=\"manifest\" href=\"/luci-static/argon/manifest.json\">\n<link rel=\"icon\" type=\"image/png\" sizes=\"192x192\" href=\"/luci-static/argon/icons/icon-192x192.png\">\n<link rel=\"icon\" type=\"image/png\" sizes=\"512x512\" href=\"/luci-static/argon/icons/icon-512x512.png\">\n<link rel=\"apple-touch-icon\" href=\"/luci-static/argon/icons/apple-touch-icon.png\">\n</head>|" "$HEADER_LOGIN_FILE"
+
+# Add a popup to login page with custom styling
+echo "Adding popup to login page..."
+cat >> /usr/lib/lua/luci/view/themes/argon/header_login.htm <<EOL
+<script>
+  // Check if the popup has already been shown
+  if (!localStorage.getItem('pwa_popup_shown')) {
+    // Function to show the popup
+    function showPopup() {
+      var popup = document.createElement("div");
+      popup.id = "add-to-home-popup";
+      popup.innerHTML = "<p>If you want to use this app as a native app, please add it to your home screen.</p><button onclick='this.parentElement.style.display=\"none\";'>Close</button>";
+      
+      // Apply the styles
+      popup.style.position = "fixed";
+      popup.style.left = "50%";
+      popup.style.bottom = "20px";
+      popup.style.transform = "translateX(-50%)";
+      popup.style.backgroundColor = "rgba(0, 0, 0, 0.75)";
+      popup.style.color = "#fff";
+      popup.style.padding = "10px 20px";
+      popup.style.borderRadius = "8px";
+      popup.style.zIndex = "1000";
+      popup.style.textAlign = "center";
+      popup.style.boxShadow = "0 4px 8px rgba(0, 0, 0, 0.5)";
+      
+      document.body.appendChild(popup);
+    }
+
+    // Check if it's iOS and show the popup
+    if (navigator.userAgent.match(/iPhone|iPad|iPod/)) {
+      showPopup();
+    }
+
+    // Mark the popup as shown
+    localStorage.setItem('pwa_popup_shown', 'true');
+  }
+</script>
+EOL
+
+# Clean up temporary files
+echo "Cleaning up temporary files..."
+rm -rf $TEMP_DIR /tmp/touch-icons.zip
+
+clear
+
+# Final message
+echo "PWA setup completed successfully."
+
+sleep 3
+############
+
+# install Button 
+
+clear
+
+# Path to the footer.htm file
+FOOTER_PATH="/usr/lib/lua/luci/view/themes/argon/footer.htm"
+
+# Verify if the footer.htm file exists
+if [ ! -f "$FOOTER_PATH" ]; then
+    echo "footer.htm not found at $FOOTER_PATH, please check the path and try again."
+    exit 1
+fi
+
+# Create the buttons folder if it doesn't exist
+BUTTONS_FOLDER="/www/luci-static/argon/button"
+mkdir -p "$BUTTONS_FOLDER"
+
+# Download the image for the apple-touch-icon
+IMAGE_URL_1="https://raw.githubusercontent.com/peditx/iranIPS/refs/heads/main/.files/ui/button/apple-touch-icon.png"
+IMAGE_PATH_1="$BUTTONS_FOLDER/apple-touch-icon.png"
+
+# Download the image for the passwall2 button
+IMAGE_URL_2="https://raw.githubusercontent.com/peditx/iranIPS/refs/heads/main/.files/ui/button/passwall2.png"
+IMAGE_PATH_2="$BUTTONS_FOLDER/passwall2.png"
+
+# Download the image for the dashboard button
+IMAGE_URL_3="https://raw.githubusercontent.com/peditx/iranIPS/refs/heads/main/.files/ui/button/rm.png"
+IMAGE_PATH_3="$BUTTONS_FOLDER/rm.png"
+
+# Download the image for the reboot button
+IMAGE_URL_4="https://raw.githubusercontent.com/peditx/iranIPS/refs/heads/main/.files/ui/button/reboot.png"
+IMAGE_PATH_4="$BUTTONS_FOLDER/reboot.png"
+
+# Download the image for the telegram button
+IMAGE_URL_5="https://raw.githubusercontent.com/peditx/iranIPS/refs/heads/main/.files/ui/button/tl.png"
+IMAGE_PATH_5="$BUTTONS_FOLDER/tl.png"
+
+# Use wget to download the images
+echo "Downloading images..."
+wget -q "$IMAGE_URL_1" -O "$IMAGE_PATH_1" && echo "Downloaded apple-touch-icon image" || echo "Failed to download apple-touch-icon image"
+wget -q "$IMAGE_URL_2" -O "$IMAGE_PATH_2" && echo "Downloaded passwall2 image" || echo "Failed to download passwall2 image"
+wget -q "$IMAGE_URL_3" -O "$IMAGE_PATH_3" && echo "Downloaded dashboard image" || echo "Failed to download dashboard image"
+wget -q "$IMAGE_URL_4" -O "$IMAGE_PATH_4" && echo "Downloaded reboot image" || echo "Failed to download reboot image"
+wget -q "$IMAGE_URL_5" -O "$IMAGE_PATH_5" && echo "Downloaded telegram image" || echo "Failed to download telegram image"
+
+# Verify if the images were downloaded successfully
+if [ ! -f "$IMAGE_PATH_1" ]; then
+    echo "Failed to download image for apple-touch-icon from $IMAGE_URL_1"
+    exit 1
+fi
+
+if [ ! -f "$IMAGE_PATH_2" ]; then
+    echo "Failed to download image for passwall2 button from $IMAGE_URL_2"
+    exit 1
+fi
+
+if [ ! -f "$IMAGE_PATH_3" ]; then
+    echo "Failed to download image for dashboard button from $IMAGE_URL_3"
+    exit 1
+fi
+
+if [ ! -f "$IMAGE_PATH_4" ]; then
+    echo "Failed to download image for reboot button from $IMAGE_URL_4"
+    exit 1
+fi
+
+if [ ! -f "$IMAGE_PATH_5" ]; then
+    echo "Failed to download image for telegram button from $IMAGE_URL_5"
+    exit 1
+fi
+
+# Add CSS and HTML for floating button with local image in LuCI footer
+cat << EOF >> "$FOOTER_PATH"
+<style>
+    #floating-button {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        width: 80px;  /* Adjusted size */
+        height: 80px;  /* Adjusted size */
+        border-radius: 50%;
+        box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.3);
+        z-index: 1000;
+        cursor: pointer;
+        background-color: transparent;
+        border: none;
+    }
+
+    #floating-button img {
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+        object-fit: cover; /* Make image cover the button */
+    }
+
+    .sub-buttons {
+        position: fixed;
+        bottom: -240px; /* Initially out of view, 3 icon sizes below */
+        right: 20px;
+        z-index: 999;
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+        transform: translateY(100%); /* Initially out of view */
+        transition: transform 0.3s ease-in-out;
+        overflow: hidden;
+    }
+
+    .sub-buttons button {
+        width: 80px;  /* Adjusted size */
+        height: 80px;  /* Adjusted size */
+        border-radius: 50%;
+        border: none;
+        background-color: #ffffff;
+        box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.3);
+        cursor: pointer;
+        margin-top: 10px;  /* Increased margin for more space between buttons */
+        transition: transform 0.3s ease-in-out;
+        overflow: hidden;
+    }
+
+    .sub-buttons button img {
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+        object-fit: cover; /* Make image cover the button */
+    }
+
+    /* Custom colors for sub-buttons */
+    .sub-buttons button.passwall2 {
+        background-color: #29562e;
+    }
+
+    .sub-buttons button.reboot {
+        background-color: #f55454;
+    }
+
+    .sub-buttons button.telegram {
+        background-color: #00adec;
+    }
+
+    .sub-buttons button.dashboard {
+        background-color: #29562e;
+    }
+
+    /* Animation for opening the buttons */
+    .sub-buttons.open {
+        bottom: 180px; /* Move 180px up when opened */
+        transform: translateY(0);
+    }
+</style>
+
+<div id="floating-button" onclick="toggleButtons()">
+    <img src="/luci-static/argon/button/apple-touch-icon.png" alt="PeDitX Button">
+</div>
+
+<div class="sub-buttons" id="sub-buttons">
+    <!-- Passwall2 Button -->
+    <button class="passwall2" onclick="window.location.href='/cgi-bin/luci/admin/services/passwall2'">
+        <img src="/luci-static/argon/button/passwall2.png" alt="Passwall2 Button">
+    </button>
+    <!-- Dashboard Button -->
+    <button class="dashboard" onclick="window.location.href='/cgi-bin/luci/admin/status/overview'">
+        <img src="/luci-static/argon/button/rm.png" alt="Dashboard Button">
+    </button>
+    <!-- Reboot Button -->
+    <button class="reboot" onclick="window.location.href='/cgi-bin/luci/admin/system/reboot'">
+        <img src="/luci-static/argon/button/reboot.png" alt="Reboot Button">
+    </button>
+    <!-- Telegram Button -->
+    <button class="telegram" onclick="window.open('https://t.me/peditx', '_blank')">
+        <img src="/luci-static/argon/button/tl.png" alt="Telegram Button">
+    </button>
+</div>
+
+<script>
+    function toggleButtons() {
+        var subButtons = document.getElementById('sub-buttons');
+        subButtons.classList.toggle('open');
+    }
+</script>
+EOF
+
+# Restart uhttpd to apply changes
+/etc/init.d/uhttpd restart
+
+clear
+
+echo "PeDitX button with sub-buttons added successfully. Please refresh LuCI to view the changes."
+sleep 2
+############
+
+# Clean up downloaded files
+echo "Cleaning up downloaded files..."
+rm -f "$theme_file" "$config_file" "$new_svg_file" "$new_bg_file"
+
+# Clear browser cache reminder
+echo -e "Please clear your browser cache to see the updated images."
+
+clear
+echo -e "${GREEN}First reform ... done!${NC}"
+
+# Verify installation and replacements
+echo -e "\nVerification Results:"
+if opkg list-installed | grep -q "luci-theme-argon"; then
+    echo -e "${GREEN}Theme installed successfully ✅ OK${NC}"
+else
+    echo -e "${RED}Theme installation failed ❌ FAILED${NC}"
+fi
+
+if opkg list-installed | grep -q "luci-app-argon-config"; then
+    echo -e "${GREEN}Config installed successfully ✅ OK${NC}"
+else
+    echo -e "${RED}Config installation failed ❌ FAILED${NC}"
+fi
+
+if [ -f "$svg_path" ]; then
+    echo -e "${GREEN}SVG image replaced successfully ✅ OK${NC}"
+else
+    echo -e "${RED}SVG image replacement failed ❌ FAILED${NC}"
+fi
+
+if [ -f "$bg_path" ]; then
+    echo -e "${GREEN}Background image replaced successfully ✅ OK${NC}"
+else
+    echo -e "${RED}Background image replacement failed ❌ FAILED${NC}"
+fi
+
+if [ -f "$favicon_path" ]; then
+    echo -e "${GREEN}Favicon replaced successfully ✅ OK${NC}"
+else
+    echo -e "${RED}Favicon replacement failed ❌ FAILED${NC}"
+fi
+
+##Scanning
+
+. /etc/openwrt_release
+
+echo -e "${MAGENTA} 
+_______           _______  __   __     __    __            __          
+|       \         |       \|  \ |  \   |  \  |  \          |  \         
+| ▓▓▓▓▓▓▓\ ______ | ▓▓▓▓▓▓▓\\▓▓_| ▓▓_  | ▓▓  | ▓▓ ______  _| ▓▓_        
+| ▓▓__/ ▓▓/      \| ▓▓  | ▓▓  \   ▓▓ \  \▓▓\/  ▓▓/      \|   ▓▓ \       
+| ▓▓    ▓▓  ▓▓▓▓▓▓\ ▓▓  | ▓▓ ▓▓\▓▓▓▓▓▓   >▓▓  ▓▓|  ▓▓▓▓▓▓\\▓▓▓▓▓▓       
+| ▓▓▓▓▓▓▓| ▓▓    ▓▓ ▓▓  | ▓▓ ▓▓ | ▓▓ __ /  ▓▓▓▓\| ▓▓   \▓▓ | ▓▓ __      
+| ▓▓     | ▓▓▓▓▓▓▓▓ ▓▓__/ ▓▓ ▓▓ | ▓▓|  \  ▓▓ \▓▓\ ▓▓       | ▓▓|  \     
+| ▓▓      \▓▓     \ ▓▓    ▓▓ ▓▓  \▓▓  ▓▓ ▓▓  | ▓▓ ▓▓        \▓▓  ▓▓     
+ \▓▓       \▓▓▓▓▓▓▓\▓▓▓▓▓▓▓ \▓▓   \▓▓▓▓ \▓▓   \▓▓\▓▓         \▓▓▓▓      
+                                      
+                                                     P A S S W A L L ${NC}"
+EPOL=`cat /tmp/sysinfo/model`
+echo " - Model : $EPOL"
+echo " - System Ver : $DISTRIB_RELEASE"
+echo " - System Arch : $DISTRIB_ARCH"
+
+# RESULT=`echo "$DISTRIB_RELEASE" | grep -o 23 | sed -n '1p'`
+
+# if [ "$RESULT" == "23" ]; then
+
+
+echo " "
+RESULTT=`ls /etc/init.d/passwall 2>/dev/null`
+if [ "$RESULTT" == "/etc/init.d/passwall" ]; then
+
+echo -e "${YELLOW} > 4.${NC} ${GREEN} Update Your Passwall ${NC}"
+
+ else
+           
+sleep 1
+
+fi
+
+RESULTTT=`ls /etc/init.d/passwall2 2>/dev/null`
+if [ "$RESULTTT" == "/etc/init.d/passwall2" ]; then
+
+echo -e "${YELLOW} > 5.${NC} ${GREEN} Update Your Passwall2 ${NC}"
+
+ else
+           
+sleep 1
+
+fi
+
+echo -e "${GREEN} 1.${NC} ${CYAN} Install Passwall 1 ${NC}"
+echo -e "${GREEN} 2.${NC} ${CYAN} Install Passwall 2 ${NC}"
+echo -e "${GREEN} 3.${NC} ${BLUE} Install Passwall 1 + 2 ${NC}"
+echo -e "${GREEN} 11.${NC} ${BLUE}Install Passwall 2 + Temporary core ${NC}"
+echo -e "${GREEN} 6.${NC} ${MAGENTA} Easy Exroot For routers that have USB ${NC}"
+echo -e "${GREEN} 7.${NC} ${RED} Extra tools ${NC}"
+echo -e "${GREEN} 8.${NC} ${CYAN} Uninstall all Tools ${NC}"
+echo -e "${YELLOW} 9.${NC} ${YELLOW} CloudFlare IP Scanner ${NC}"
+echo -e "${REF} 0.${NC} ${RED} EXIT ${NC}"
+echo ""
+
+
+echo " "
+ read -p " -Select Passwall Option : " choice
+
+    case $choice in
+
+1)
+
+echo "Installing Passwall 1 ..."
+
+sleep 2
+
+rm -f passwall.sh && wget https://github.com/peditx/iranIPS/raw/refs/heads/main/.files/passwall.sh && chmod 777 passwall.sh && sh passwall.sh
+
+
+;;
+
+2)
+        
+echo "Installing Passwall 2 ..."
+
+sleep 2
+
+rm -f passwall2.sh && wget https://github.com/peditx/iranIPS/raw/refs/heads/main/.files/passwall2.sh && chmod 777 passwall2.sh && sh passwall2.sh
+
+ 
+;;
+
+9)
+        
+echo "Installing CloudFlare IP SCAN ..."
+
+opkg update
+
+opkg install bash
+
+opkg install curl
+
+curl -ksSL https://gitlab.com/rwkgyg/cdnopw/raw/main/cdnopw.sh -o cdnopw.sh && bash cdnopw.sh
+ 
+;;
+
+
+4)
+        
+echo "Updating Passwall v1"
+
+opkg update
+
+opkg install luci-app-passwall
+ 
+;;
+
+
+5)
+        
+echo "Updating Passwall v2"
+
+opkg update
+
+opkg install luci-app-passwall2
+ 
+;;
+
+
+0)
+            echo ""
+            echo -e "${GREEN}Exiting...${NC}"
+            exit 0
+
+           read -s -n 1
+           ;;
+
+6)
+        
+echo "Easy Exroot Openwrt For routers that have USB ..."
+
+opkg update
+
+opkg install bash
+
+opkg install curl
+
+curl -ksSL https://github.com/peditx/ezexroot/raw/refs/heads/main/ezexroot.sh -o ezexroot.sh && bash ezexroot.sh
+ 
+;;
+
+7)
+        
+echo "Extra Tools (Wifi settings and cleanup memory) ..."
+
+curl -ksSL https://raw.githubusercontent.com/peditx/iranIPS/refs/heads/main/.files/extras/extra.sh -o extra.sh && bash extra.sh
+ 
+;;
+
+8)
+        
+echo "Uninstall tools ..."
+
+curl -ksSL https://raw.githubusercontent.com/peditx/iranIPS/refs/heads/main/.files/core/uninstall.sh -o uninstall.sh && bash uninstall.sh
+ 
+;;
+
+
+ 3)
+
+echo "Installing Passwall 1 and 2 ..."
+
+sleep 2
+
+rm -f passwalldue.sh && wget https://github.com/peditx/iranIPS/raw/refs/heads/main/.files/passwalldue.sh && chmod 777 passwalldue.sh && sh passwalldue.sh
+
+
+;;
+
+11)
+
+echo "Installing Passwall 2 With Temporary Core ..."
+
+sleep 2
+
+rm -f tempcore.sh && wget https://raw.githubusercontent.com/peditx/iranIPS/refs/heads/main/.files/core/tempcore.sh && chmod 777 tempcore.sh && sh tempcore.sh
+
+
+;;
+
+ *)
+           echo "  Invalid option Selected ! "
+           echo " "
+           echo -e "  Press ${RED}ENTER${NC} to continue"
+           exit 0
+           read -s -n 1
+           ;;
+      esac
