@@ -12,6 +12,7 @@ rm -f /etc/hosts
 echo "185.199.111.133 raw.githubusercontent.com" >> /etc/hosts
 echo "216.105.38.12 master.dl.sourceforge.net" >> /etc/hosts
 echo "151.101.2.132 downloads.openwrt.org" >> /etc/hosts
+echo "140.82.121.3 github.com" >> /etc/hosts
 
 echo "Running as root..."
 sleep 2
