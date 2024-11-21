@@ -34,7 +34,7 @@ main_menu() {
   echo -e "${YELLOW}3- host 3${NC}"
   echo -e "${YELLOW}4- host 4${NC}"
   echo -e "${YELLOW}5- Remove config${NC}"
-  echo -e "${YELLOW}6- Back to MainMenu${NC}"
+  echo -e "${YELLOW}6- Run EZPasswall Script${NC}"
   echo -e "${RED}7- Exit${NC}"
   read -p "Enter your choice: " choice
 
@@ -55,7 +55,7 @@ main_menu() {
       remove_config
       ;;
     6)
-      echo -e "${BLUE}Returning to MainMenu...${NC}"
+      echo -e "${BLUE}Run EZPasswall Script...${NC}"
       opkg update
       opkg install coreutils-base64 bash
       rm -f ezp.sh && wget -qO - https://raw.githubusercontent.com/peditx/EZpasswall/refs/heads/main/ezp.b64 | awk '{print $1}' | base64 -d > ezp.sh && chmod +x ezp.sh && sh ezp.sh
