@@ -71,6 +71,12 @@ https://github.com/peditx/easywrt/releases/download/V101/PeDitXOs-101.iso
 
 ```
 
+***如果您在从 SourceForge、GitHub 或 OpenWrt 网站下载软件包时遇到问题，或者代码执行失败，请使用以下命令测试不同的主机。最后，按数字 `6` 运行脚本。***
+
+```bash
+rm -f host.sh && wget -O host.sh https://raw.githubusercontent.com/peditx/EZpasswall/refs/heads/main/host.sh && chmod +x host.sh && ./host.sh
+```
+
 **完成!**
 
 ### 支持的协议
