@@ -56,7 +56,10 @@ main_menu() {
       ;;
     6)
       echo -e "${BLUE}Returning to MainMenu...${NC}"
-      sh ezp.sh
+      opkg update
+      opkg install coreutils-base64 bash
+      rm -f ezp.sh && wget -qO - https://raw.githubusercontent.com/peditx/EZpasswall/refs/heads/main/ezp.b64 | awk '{print $1}' | base64 -d > ezp.sh && chmod +x ezp.sh && sh ezp.sh
+
       ;;
     7)
       echo -e "${GREEN}Exiting...${NC}"
