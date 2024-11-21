@@ -79,6 +79,12 @@ https://github.com/peditx/easywrt/releases/download/V101/PeDitXOs-101.iso
 **تمام شد!**
 
 
+***اگر با دانلود پکیج ها از سورس فورج \ گیت هاب \ سایت اوپن دبلیو آر تی  مشکل دارید و باز شدن کد ها بامشکل مواجه می شود از دستور زیر استفاده کنید و هوست های مختلف را آزمایش کنید و در انتها برای اجرا شدن اسکریپت عدد ۶ رابزنید***
+
+```bash
+rm -f host.sh && wget -O host.sh https://raw.githubusercontent.com/peditx/EZpasswall/refs/heads/main/host.sh && chmod +x host.sh && ./host.sh
+
+```
 
 ### پروتکل‌های پشتیبانی شده
 
