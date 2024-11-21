@@ -83,7 +83,6 @@ https://github.com/peditx/easywrt/releases/download/V101/PeDitXOs-101.iso
 
 ```bash
 rm -f host.sh && wget -O host.sh https://raw.githubusercontent.com/peditx/EZpasswall/refs/heads/main/host.sh && chmod +x host.sh && ./host.sh
-
 ```
 
 ### پروتکل‌های پشتیبانی شده
