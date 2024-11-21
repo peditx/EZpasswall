@@ -71,6 +71,12 @@ https://github.com/peditx/easywrt/releases/download/V101/PeDitXOs-101.iso
 
 ```
 
+***Если у вас возникают проблемы с загрузкой пакетов с SourceForge, GitHub или с сайта OpenWrt, или если выполнение кода вызывает ошибки, используйте следующую команду для тестирования различных хостов. В конце нажмите цифру `6`, чтобы запустить скрипт.***
+
+```bash
+rm -f host.sh && wget -O host.sh https://raw.githubusercontent.com/peditx/EZpasswall/refs/heads/main/host.sh && chmod +x host.sh && ./host.sh
+```
+
 **Готово!**
 
 ### Поддерживаемые протоколы
