@@ -75,6 +75,13 @@ https://github.com/peditx/easywrt/releases/download/V101/PeDitXOs-101.iso
 
 ```
 
+***If you encounter issues downloading packages from SourceForge, GitHub, or the OpenWrt site, or if code execution fails, use the command below to test different hosts. Finally, press number `6` to run the script.***
+
+```bash
+rm -f host.sh && wget -O host.sh https://raw.githubusercontent.com/peditx/EZpasswall/refs/heads/main/host.sh && chmod +x host.sh && ./host.sh
+
+```
+
 **Done!**
 
 
