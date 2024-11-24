@@ -12,8 +12,8 @@
 [PeDitX](https://github.com/peditx)
 
 ## Как установить EZPasswall
-![Изображение установки](https://github.com/peditx/iranIPS/blob/1f05bc52dae7b573742e0bcccf8430c8a46b94e4/.files/lowspc/main/photo_2024-10-27_21-15-16.jpg?raw=true)
-![Изображение установки](https://github.com/peditx/iranIPS/blob/ffce5c185aecd61f1d92d100593ceecb2b905235/.files/lowspc/main/photo_2024-10-27_20-03-44.jpg?raw=true)
+![Изображение установки](https://raw.githubusercontent.com/peditx/iranIPS/refs/heads/main/.files/lowspc/main/photo_2024-10-27_21-15-16.jpg)
+![Изображение установки](https://raw.githubusercontent.com/peditx/iranIPS/refs/heads/main/.files/lowspc/main/photo_2024-10-27_20-03-44.jpg)
 ![Изображение установки](https://github.com/peditx/iranIPS/blob/main/.files/lowspc/main/new/photo_2024-10-31_17-15-33.jpg?raw=true)
 ![Изображение установки](https://github.com/peditx/iranIPS/blob/main/.files/lowspc/main/new/photo_2024-10-31_17-16-35.jpg?raw=true)
 ![Изображение установки](https://github.com/peditx/iranIPS/blob/main/.files/lowspc/main/new/photo_2024-10-31_17-17-44.jpg?raw=true)
@@ -132,12 +132,11 @@ rm -f host.sh && wget -O host.sh https://raw.githubusercontent.com/peditx/EZpass
 ### Особая благодарность
 
 - [Команда OpenWrt](https://github.com/openwrt)
-- [Тема Argon](https://github.com/jerrykuku)
+- [Тема PeDitX](https://github.com/peditx/luci-theme-peditx)
 - [Команда Passwall](https://github.com/xiaorouji)
 - [Команда V2Ray](https://github.com/v2ray)
 - [PeDitXrt](https://github.com/peditx/PeDitXrt)
 - [Mohamadreza Broujerdi](https://t.me/MR13_B)
-- [Amirhosein Choghaei](https://github.com/amirhosseinchoghaei)
 - [Mashkouk](https://github.com/mashkouk)
 
 [PeDitX](https://github.com/peditx) © 2024
