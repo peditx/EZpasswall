@@ -18,10 +18,10 @@
 ![Installation Image](https://github.com/peditx/iranIPS/blob/main/.files/lowspc/main/new/photo_2024-10-31_17-16-35.jpg?raw=true)
 ![Installation Image](https://github.com/peditx/iranIPS/blob/main/.files/lowspc/main/new/photo_2024-10-31_17-17-44.jpg?raw=true)
 
-#Android controller app
-## [![Download for Android](https://img.shields.io/badge/Download%20for-Android-green?style=for-the-badge&logo=android)](https://github.com/peditx/EZpasswall/releases/tag/1.0.5)
+## Android controller app
+[![Download for Android](https://img.shields.io/badge/Download%20for-Android-green?style=for-the-badge&logo=android)](https://github.com/peditx/EZpasswall/releases/tag/1.0.5)
 
-##You need the EZpasswall script to use this app for controlling your router.
+⚠ You need the EZpasswall script to use this app for controlling your router.
 
 ### System Requirements for routers
 
