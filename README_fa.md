@@ -19,6 +19,12 @@
 ![نصب تصویر](https://github.com/peditx/iranIPS/blob/main/.files/lowspc/main/new/photo_2024-10-31_17-16-35.jpg?raw=true)
 ![نصب تصویر](https://github.com/peditx/iranIPS/blob/main/.files/lowspc/main/new/photo_2024-10-31_17-17-44.jpg?raw=true)
 
+
+# اپلیکیشن کنترل‌کننده اندروید  
+## [![دانلود برای اندروید](https://img.shields.io/badge/Download%20for-Android-green?style=for-the-badge&logo=android)](https://github.com/peditx/EZpasswall/releases/tag/1.0.5)  
+
+## برای استفاده از این اپلیکیشن و کنترل روتر خود، به اسکریپت EZpasswall نیاز دارید.
+
 ### حداقل سیستم مورد نیاز برای روتر
 
 - **سی پی یو:** `>= 700 MHz`
