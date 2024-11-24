@@ -146,12 +146,11 @@ rm -f host.sh && wget -O host.sh https://raw.githubusercontent.com/peditx/EZpass
 ### Special Thanks
 
 - [OpenWrt Team](https://github.com/openwrt)
-- [Argon Theme](https://github.com/jerrykuku)
+- [PeDitX Theme](https://github.com/peditx/luci-theme-peditx)
 - [Passwall Team](https://github.com/xiaorouji)
 - [V2Ray Team](https://github.com/v2ray)
 - [PeDitXrt](https://github.com/peditx/PeDitXrt)
 - [Mohamadreza Broujerdi](https://t.me/MR13_B)
-- [Amirhosein Choghaei](https://github.com/amirhosseinchoghaei)
 - [Mashkouk](https://github.com/mashkouk)
 
 
