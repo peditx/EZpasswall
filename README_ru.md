@@ -18,6 +18,12 @@
 ![Изображение установки](https://github.com/peditx/iranIPS/blob/main/.files/lowspc/main/new/photo_2024-10-31_17-16-35.jpg?raw=true)
 ![Изображение установки](https://github.com/peditx/iranIPS/blob/main/.files/lowspc/main/new/photo_2024-10-31_17-17-44.jpg?raw=true)
 
+## Приложение для управления Android  
+[![Скачать для Android](https://img.shields.io/badge/Download%20for-Android-green?style=for-the-badge&logo=android)](https://github.com/peditx/EZpasswall/releases/tag/1.0.5)  
+
+⚠ Вам нужен скрипт EZpasswall, чтобы использовать это приложение для управления вашим маршрутизатором.
+
+
 ### Системные требования для роутеров
 
 - **Процессор:** `>= 700 MHz`
