@@ -1,5 +1,5 @@
 # EZPasswall
-[![Visitor Badge](https://img.shields.io/badge/Chat%20on-Telegram-blue.svg)](https://t.me/peditx) [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT) [![Download for Android](https://img.shields.io/badge/Download%20for-Android-green?style=for-the-badge&logo=android)](https://github.com/peditx/EZpasswall/releases/tag/1.0.5)
+[![Visitor Badge](https://img.shields.io/badge/Chat%20on-Telegram-blue.svg)](https://t.me/peditx) [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
 [**English**](README.md) | [**فارسی**](README_fa.md) | [**简体中文**](README-ch.md) | [**Русский**](README_ru.md)
 
@@ -17,6 +17,11 @@
 ![Installation Image](https://github.com/peditx/iranIPS/blob/main/.files/lowspc/main/new/photo_2024-10-31_17-15-33.jpg?raw=true)
 ![Installation Image](https://github.com/peditx/iranIPS/blob/main/.files/lowspc/main/new/photo_2024-10-31_17-16-35.jpg?raw=true)
 ![Installation Image](https://github.com/peditx/iranIPS/blob/main/.files/lowspc/main/new/photo_2024-10-31_17-17-44.jpg?raw=true)
+
+#Android controller app
+## [![Download for Android](https://img.shields.io/badge/Download%20for-Android-green?style=for-the-badge&logo=android)](https://github.com/peditx/EZpasswall/releases/tag/1.0.5)
+
+##You need the EZpasswall script to use this app for controlling your router.
 
 ### System Requirements for routers
 
