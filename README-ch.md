@@ -18,10 +18,10 @@
 ![安装图片](https://github.com/peditx/iranIPS/blob/main/.files/lowspc/main/new/photo_2024-10-31_17-16-35.jpg?raw=true)
 ![安装图片](https://github.com/peditx/iranIPS/blob/main/.files/lowspc/main/new/photo_2024-10-31_17-17-44.jpg?raw=true)
 
-## 安卓控制器应用程序  
-### [![下载适用于安卓](https://img.shields.io/badge/Download%20for-Android-green?style=for-the-badge&logo=android)](https://github.com/peditx/EZpasswall/releases/tag/1.0.5)  
+### 安卓控制器应用程序  
+[![下载适用于安卓](https://img.shields.io/badge/Download%20for-Android-green?style=for-the-badge&logo=android)](https://github.com/peditx/EZpasswall/releases/tag/1.0.5)  
 
-## 您需要 EZpasswall 脚本才能使用此应用程序来控制您的路由器。
+### 您需要 EZpasswall 脚本才能使用此应用程序来控制您的路由器。
 
 
 ### 路由器的系统要求
