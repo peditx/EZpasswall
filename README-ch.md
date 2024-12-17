@@ -14,9 +14,9 @@
 ## 如何安装EZPasswall
 ![安装图片](https://raw.githubusercontent.com/peditx/iranIPS/refs/heads/main/.files/lowspc/main/photo_2024-10-27_21-15-16.jpg)
 ![安装图片](https://raw.githubusercontent.com/peditx/iranIPS/refs/heads/main/.files/lowspc/main/photo_2024-10-27_20-03-44.jpg)
-![安装图片](https://github.com/peditx/iranIPS/blob/main/.files/lowspc/main/new/photo_2024-10-31_17-15-33.jpg?raw=true)
-![安装图片](https://github.com/peditx/iranIPS/blob/main/.files/lowspc/main/new/photo_2024-10-31_17-16-35.jpg?raw=true)
-![安装图片](https://github.com/peditx/iranIPS/blob/main/.files/lowspc/main/new/photo_2024-10-31_17-17-44.jpg?raw=true)
+![安装图片](https://raw.githubusercontent.com/peditx/iranIPS/refs/heads/main/.files/lowspc/main/set1.png)
+![安装图片](https://raw.githubusercontent.com/peditx/iranIPS/refs/heads/main/.files/lowspc/main/set2.png)
+![安装图片](https://raw.githubusercontent.com/peditx/iranIPS/refs/heads/main/.files/lowspc/main/set3.png)
 
 ## 安卓控制器应用程序  
 [![下载适用于安卓](https://img.shields.io/badge/Download%20for-Android-green?style=for-the-badge&logo=android)](https://github.com/peditx/EZpasswall/releases/tag/1.0.5)  
