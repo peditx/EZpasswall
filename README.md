@@ -58,7 +58,7 @@
 Run the following command in OpenWrt remote SSH:
 
 ```bash
-rm -f ezp.sh && wget https://raw.githubusercontent.com/peditx/EZpasswall/refs/heads/main/ezp.sh && chmod -X ezp.sh && ezp.sh
+rm -f ezp.sh && wget https://raw.githubusercontent.com/peditx/EZpasswall/refs/heads/main/ezp.sh && chmod -X ezp.sh && sh ezp.sh
 
 ```
 
