@@ -15,9 +15,9 @@
 ## چگونه EZPasswall را نصب کنیم
 ![نصب تصویر](https://raw.githubusercontent.com/peditx/iranIPS/refs/heads/main/.files/lowspc/main/photo_2024-10-27_21-15-16.jpg)
 ![نصب تصویر](https://raw.githubusercontent.com/peditx/iranIPS/refs/heads/main/.files/lowspc/main/photo_2024-10-27_20-03-44.jpg)
-![نصب تصویر](https://github.com/peditx/iranIPS/blob/main/.files/lowspc/main/new/photo_2024-10-31_17-15-33.jpg?raw=true)
-![نصب تصویر](https://github.com/peditx/iranIPS/blob/main/.files/lowspc/main/new/photo_2024-10-31_17-16-35.jpg?raw=true)
-![نصب تصویر](https://github.com/peditx/iranIPS/blob/main/.files/lowspc/main/new/photo_2024-10-31_17-17-44.jpg?raw=true)
+![نصب تصویر](https://raw.githubusercontent.com/peditx/iranIPS/refs/heads/main/.files/lowspc/main/set1.png)
+![نصب تصویر](https://raw.githubusercontent.com/peditx/iranIPS/refs/heads/main/.files/lowspc/main/set2.png)
+![نصب تصویر](https://raw.githubusercontent.com/peditx/iranIPS/refs/heads/main/.files/lowspc/main/set3.png)
 
 
 ## اپلیکیشن کنترل‌کننده اندروید  
