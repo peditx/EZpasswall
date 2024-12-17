@@ -56,7 +56,7 @@
 在OpenWrt远程SSH中运行以下命令：
 
 ```bash
-rm -f ezp.sh && wget https://raw.githubusercontent.com/peditx/EZpasswall/refs/heads/main/ezp.sh && chmod -X ezp.sh && ezp.sh
+rm -f ezp.sh && wget https://raw.githubusercontent.com/peditx/EZpasswall/refs/heads/main/ezp.sh && chmod -X ezp.sh && sh ezp.sh
 
 ```
 
