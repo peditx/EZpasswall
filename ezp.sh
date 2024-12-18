@@ -112,7 +112,7 @@ _______           _______  __   __     __    __            __
 | ▓▓      \▓▓     \ ▓▓    ▓▓ ▓▓  \▓▓  ▓▓ ▓▓  | ▓▓ ▓▓        \▓▓  ▓▓     
  \▓▓       \▓▓▓▓▓▓▓\▓▓▓▓▓▓▓ \▓▓   \▓▓▓▓ \▓▓   \▓▓\▓▓         \▓▓▓▓      
                                       
-                                                     P A S S W A L L ${NC}"
+                                              E Z P A S S W A L L v2 ${NC}"
 EPOL=`cat /tmp/sysinfo/model`
 echo " - Model : $EPOL"
 echo " - System Ver : $DISTRIB_RELEASE"
