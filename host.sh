@@ -56,9 +56,8 @@ main_menu() {
       ;;
     6)
       echo -e "${BLUE}Run EZPasswall Script...${NC}"
-      opkg update
-      opkg install coreutils-base64 bash
-      rm -f ezp.sh && wget -qO - https://raw.githubusercontent.com/peditx/EZpasswall/refs/heads/main/ezp.b64 | awk '{print $1}' | base64 -d > ezp.sh && chmod +x ezp.sh && sh ezp.sh
+      rm -f host.sh && wget -O host.sh https://raw.githubusercontent.com/peditx/EZpasswall/refs/heads/main/host.sh && chmod +x host.sh && ./host.sh
+
 
       ;;
     7)
