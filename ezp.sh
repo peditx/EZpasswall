@@ -99,77 +99,46 @@ clear
 
 ### install themeswitch
 
-#!/bin/sh
-
-# Exit on error
 set -e
 
-# Check for required commands
-if ! command -v curl >/dev/null 2>&1; then
-    echo "Error: curl is required but not installed. Install with: opkg install curl"
-    exit 1
-fi
+# Check for curl/wget
+[ -n "$(command -v curl)" ] && DOWNLOADER="curl -sL -o" || { 
+    [ -n "$(command -v wget)" ] && DOWNLOADER="wget -q -O" || { 
+        echo "Install curl/wget first!"; exit 1
+    }
+}
 
-DOWNLOADER=""
-if command -v wget >/dev/null 2>&1; then
-    DOWNLOADER="wget -q -O"
-elif command -v curl >/dev/null 2>&1; then
-    DOWNLOADER="curl -s -L -o"
-else
-    echo "Error: Neither wget nor curl found. Install one first."
-    exit 1
-fi
-
-# Get device architecture
+# Get architecture
 . /etc/openwrt_release
 ARCH="$DISTRIB_ARCH"
+echo "➔ Architecture: $ARCH"
 
-# Map architecture to GitHub file naming convention
-case "$ARCH" in
-    "x86_64") ARCH="x86_64" ;;
-    "aarch64_cortex-a53") ARCH="aarch64_cortex-a53" ;;
-    "aarch64_cortex-a72") ARCH="aarch64_cortex-a72" ;;
-    "aarch64_generic") ARCH="aarch64_generic" ;;
-    "arm_cortex-a15_neon-vfpv4") ARCH="arm_cortex-a15_neon-vfpv4" ;;
-    "arm_cortex-a5_vfpv4") ARCH="arm_cortex-a5_vfpv4" ;;
-    "arm_cortex-a7") ARCH="arm_cortex-a7" ;;
-    "arm_cortex-a7_neon-vfpv4") ARCH="arm_cortex-a7_neon-vfpv4" ;;
-    "arm_cortex-a8_vfpv3") ARCH="arm_cortex-a8_vfpv3" ;;
-    "arm_cortex-a9") ARCH="arm_cortex-a9" ;;
-    "arm_cortex-a9_neon") ARCH="arm_cortex-a9_neon" ;;
-    "arm_cortex-a9_vfpv3-d16") ARCH="arm_cortex-a9_vfpv3-d16" ;;
-    "mipsel_24kc") ARCH="mipsel_24kc" ;;
-    "mipsel_74kc") ARCH="mipsel_74kc" ;;
-    "mipsel_mips32") ARCH="mipsel_mips32" ;;
-    "mips_24kc") ARCH="mips_24kc" ;;
-    "mips_4kec") ARCH="mips_4kec" ;;
-    "mips_mips32") ARCH="mips_mips32" ;;
-    *) echo "Error: Unsupported architecture: $ARCH"; exit 1 ;;
-esac
+# Fetch latest release data
+API_RESPONSE=$(curl -s https://api.github.com/repos/peditx/luci-app-themeswitch/releases/latest)
+LATEST_TAG=$(echo "$API_RESPONSE" | grep '"tag_name":' | sed -E 's/.*"([^"]+)".*/\1/')
+LATEST_VERSION=$(echo "$LATEST_TAG" | sed 's/^v//') # Remove 'v' prefix if exists
+echo "➔ Latest Version: $LATEST_VERSION"
 
-# Fetch latest version
-echo "Checking latest version..."
-LATEST_VERSION=$(curl -s https://api.github.com/repos/peditx/luci-app-themeswitch/releases/latest | grep '"tag_name":' | sed -E 's/.*"v([^"]+)".*/\1/')
+# Build URL
+FILENAME="luci-app-themeswitch_${LATEST_VERSION}_${ARCH}.ipk"
+URL="https://github.com/peditx/luci-app-themeswitch/releases/download/${LATEST_TAG}/${FILENAME}"
+echo "➔ Download URL: $URL"
 
-# Build download URL
-URL="https://github.com/peditx/luci-app-themeswitch/releases/download/v${LATEST_VERSION}/luci-app-themeswitch_${LATEST_VERSION}_${ARCH}.ipk"
-
-# Download package
-echo "Downloading package for ${ARCH}..."
-$DOWNLOADER /tmp/luci-app-themeswitch.ipk "$URL" || { 
-    echo "Download failed! Possible reasons:"
-    echo "1. Architecture ${ARCH} not supported"
-    echo "2. Network issues"
+# Download
+$DOWNLOADER /tmp/luci-app-themeswitch.ipk "$URL" || {
+    echo "❌ Download failed! Verify URL manually:"
+    echo "   curl -I '$URL'"
     exit 1
 }
 
-# Install package
-echo "Installing..."
-opkg install /tmp/luci-app-themeswitch.ipk
-
-# Cleanup
-rm -f /tmp/luci-app-themeswitch.ipk
-echo "luci-app-themeswitch ${LATEST_VERSION} installed successfully!"
+# Install
+opkg install /tmp/luci-app-themeswitch.ipk && {
+    rm -f /tmp/luci-app-themeswitch.ipk
+    echo "✅ Installed successfully!"
+} || {
+    echo "❌ Installation failed!"
+    exit 1
+}
 
 clear
 
