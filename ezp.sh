@@ -97,6 +97,57 @@ echo "Restarting uhttpd service to apply changes..."
 
 clear
 
+### install themeswitch
+
+# Exit on error
+set -e
+
+# Check for required commands
+if ! command -v curl >/dev/null 2>&1; then
+    echo "Error: curl is required but not installed. Install with: opkg install curl"
+    exit 1
+fi
+
+DOWNLOADER=""
+if command -v wget >/dev/null 2>&1; then
+    DOWNLOADER="wget -q -O"
+elif command -v curl >/dev/null 2>&1; then
+    DOWNLOADER="curl -s -L -o"
+else
+    echo "Error: Neither wget nor curl found. Install one first."
+    exit 1
+fi
+
+# Get device architecture
+. /etc/openwrt_release
+ARCH="$DISTRIB_ARCH"
+
+# Fetch latest version
+echo "Checking latest version..."
+LATEST_VERSION=$(curl -s https://api.github.com/repos/peditx/luci-app-themeswitch/releases/latest | grep '"tag_name":' | sed -E 's/.*"v([^"]+)".*/\1/')
+
+# Build download URL
+URL="https://github.com/peditx/luci-app-themeswitch/releases/download/v${LATEST_VERSION}/luci-app-themeswitch_${LATEST_VERSION}_${ARCH}.ipk"
+
+# Download package
+echo "Downloading package for ${ARCH}..."
+$DOWNLOADER /tmp/luci-app-themeswitch.ipk "$URL" || { 
+    echo "Download failed! Possible reasons:"
+    echo "1. Architecture ${ARCH} not supported"
+    echo "2. Network issues"
+    exit 1
+}
+
+# Install package
+echo "Installing..."
+opkg install /tmp/luci-app-themeswitch.ipk
+
+# Cleanup
+rm -f /tmp/luci-app-themeswitch.ipk
+echo "luci-app-themeswitch ${LATEST_VERSION} installed successfully!"
+
+clear
+
 echo -e "${GREEN}New theme Installed ✅ OK${NC}"
 sleep 2
 echo -e "${GREEN}Android mobile app service Installed ✅ OK${NC}"
