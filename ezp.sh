@@ -99,6 +99,8 @@ clear
 
 ### install themeswitch
 
+#!/bin/sh
+
 # Exit on error
 set -e
 
@@ -126,16 +128,18 @@ ARCH="$DISTRIB_ARCH"
 echo "Checking latest version..."
 LATEST_VERSION=$(curl -s https://api.github.com/repos/peditx/luci-app-themeswitch/releases/latest | grep '"tag_name":' | sed -E 's/.*"v([^"]+)".*/\1/')
 
-# Build download URL
+# Try downloading architecture-specific package
 URL="https://github.com/peditx/luci-app-themeswitch/releases/download/v${LATEST_VERSION}/luci-app-themeswitch_${LATEST_VERSION}_${ARCH}.ipk"
-
-# Download package
 echo "Downloading package for ${ARCH}..."
-$DOWNLOADER /tmp/luci-app-themeswitch.ipk "$URL" || { 
-    echo "Download failed! Possible reasons:"
-    echo "1. Architecture ${ARCH} not supported"
-    echo "2. Network issues"
-    exit 1
+$DOWNLOADER /tmp/luci-app-themeswitch.ipk "$URL" || {
+    echo "Architecture-specific package not found. Trying generic package..."
+    URL="https://github.com/peditx/luci-app-themeswitch/releases/download/v${LATEST_VERSION}/luci-app-themeswitch_${LATEST_VERSION}_all.ipk"
+    $DOWNLOADER /tmp/luci-app-themeswitch.ipk "$URL" || {
+        echo "Download failed! Possible reasons:"
+        echo "1. Architecture ${ARCH} not supported"
+        echo "2. Network issues"
+        exit 1
+    }
 }
 
 # Install package
