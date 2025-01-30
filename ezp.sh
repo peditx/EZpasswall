@@ -99,44 +99,39 @@ clear
 
 ### install themeswitch
 
-set -e
+#!/bin/sh
 
-# Check for curl/wget
-[ -n "$(command -v curl)" ] && DOWNLOADER="curl -sL -o" || { 
-    [ -n "$(command -v wget)" ] && DOWNLOADER="wget -q -O" || { 
-        echo "Install curl/wget first!"; exit 1
-    }
-}
+REPO_URL="https://github.com/peditx/luci-app-themeswitch/releases/latest/download"
+PACKAGE_NAME="luci-app-themeswitch"
 
-# Get architecture
-. /etc/openwrt_release
-ARCH="$DISTRIB_ARCH"
-echo "➔ Architecture: $ARCH"
+# Detect architecture
+ARCH=$(opkg print-architecture | awk 'NR==1{print $1}')
 
-# Fetch latest release data
-API_RESPONSE=$(curl -s https://api.github.com/repos/peditx/luci-app-themeswitch/releases/latest)
-LATEST_TAG=$(echo "$API_RESPONSE" | grep '"tag_name":' | sed -E 's/.*"([^"]+)".*/\1/')
-LATEST_VERSION=$(echo "$LATEST_TAG" | sed 's/^v//') # Remove 'v' prefix if exists
-echo "➔ Latest Version: $LATEST_VERSION"
+# Check supported architectures
+case "$ARCH" in
+    aarch64_cortex-a53|aarch64_cortex-a72|aarch64_generic|arm_cortex-a15_neon-vfpv4|arm_cortex-a5_vfpv4|arm_cortex-a7|arm_cortex-a7_neon-vfpv4|arm_cortex-a8_vfpv3|arm_cortex-a9|arm_cortex-a9_neon|arm_cortex-a9_vfpv3-d16|mipsel_24kc|mipsel_74kc|mipsel_mips32|mips_24kc|mips_4kec|mips_mips32|x86_64)
+        ;;
+    *)
+        echo "Error: Unsupported architecture '$ARCH'"
+        exit 1
+        ;;
+esac
 
-# Build URL
-FILENAME="luci-app-themeswitch_${LATEST_VERSION}_${ARCH}.ipk"
-URL="https://github.com/peditx/luci-app-themeswitch/releases/download/${LATEST_TAG}/${FILENAME}"
-echo "➔ Download URL: $URL"
+# Download and install
+LATEST_VERSION=$(curl -sL https://api.github.com/repos/peditx/luci-app-themeswitch/releases/latest | grep '"tag_name":' | sed -E 's/.*"v?([^"]+)".*/\1/')
+IPK_FILE="${PACKAGE_NAME}_${LATEST_VERSION}_${ARCH}.ipk"
 
-# Download
-$DOWNLOADER /tmp/luci-app-themeswitch.ipk "$URL" || {
-    echo "❌ Download failed! Verify URL manually:"
-    echo "   curl -I '$URL'"
+wget -qO "/tmp/$IPK_FILE" "$REPO_URL/$IPK_FILE" || {
+    echo "Download failed! Check URL: $REPO_URL/$IPK_FILE"
     exit 1
 }
 
-# Install
-opkg install /tmp/luci-app-themeswitch.ipk && {
-    rm -f /tmp/luci-app-themeswitch.ipk
-    echo "✅ Installed successfully!"
+opkg install "/tmp/$IPK_FILE" && {
+    rm -f "/tmp/$IPK_FILE"
+    echo "Successfully installed!"
 } || {
-    echo "❌ Installation failed!"
+    echo "Installation failed!"
+    rm -f "/tmp/$IPK_FILE"
     exit 1
 }
 
