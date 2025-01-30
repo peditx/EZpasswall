@@ -102,10 +102,13 @@ clear
 #!/bin/sh
 
 REPO="peditx/luci-app-themeswitch"
-API_URL="https://api.github.com/repos/$REPO/releases/latest"
+BASE_URL="https://github.com/$REPO/releases/latest"
 
-# Get the latest version tag from GitHub API
-LATEST_VERSION=$(curl -s "$API_URL" | grep '"tag_name"' | awk -F '"' '{print $4}')
+# Get the latest release page
+RELEASE_PAGE=$(curl -sL "$BASE_URL")
+
+# Extract the latest version (e.g., 1.0.4) from filenames in the release page
+LATEST_VERSION=$(echo "$RELEASE_PAGE" | grep -oP 'luci-app-themeswitch_\K[0-9]+\.[0-9]+\.[0-9]+' | head -n1)
 
 if [ -z "$LATEST_VERSION" ]; then
     echo "Failed to fetch the latest version."
@@ -145,6 +148,7 @@ echo "Cleaning up..."
 rm -f "$IPK_PATH"
 
 echo "Installation of $PACKAGE_NAME version $LATEST_VERSION for architecture $ARCH completed successfully."
+
 
 clear
 
