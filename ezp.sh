@@ -101,8 +101,19 @@ clear
 
 #!/bin/sh
 
-VERSION="1.0.4"
+REPO="peditx/luci-app-themeswitch"
+API_URL="https://api.github.com/repos/$REPO/releases/latest"
+
+
+LATEST_TAG=$(curl -s "$API_URL" | grep '"tag_name"' | awk -F '"' '{print $4}')
+
+if [ -z "$LATEST_TAG" ]; then
+    echo "Failed to fetch the latest version."
+    exit 1
+fi
+
 PACKAGE_NAME="luci-app-themeswitch"
+
 
 ARCH=$(opkg print-architecture | awk 'NR==2 {print $1}')
 
@@ -111,8 +122,9 @@ if [ -z "$ARCH" ]; then
     exit 1
 fi
 
-IPK_FILE="${PACKAGE_NAME}_${VERSION}_${ARCH}.ipk"
-IPK_URL="https://github.com/peditx/luci-app-themeswitch/releases/download/$VERSION/$IPK_FILE"
+# اسم فایل بسته
+IPK_FILE="${PACKAGE_NAME}_${LATEST_TAG}_${ARCH}.ipk"
+IPK_URL="https://github.com/$REPO/releases/download/$LATEST_TAG/$IPK_FILE"
 IPK_PATH="/tmp/$IPK_FILE"
 
 echo "Downloading $IPK_FILE..."
@@ -135,8 +147,7 @@ fi
 echo "Cleaning up..."
 rm -f "$IPK_PATH"
 
-echo "Installation of $PACKAGE_NAME version $VERSION for architecture $ARCH completed successfully."
-
+echo "Installation of $PACKAGE_NAME version $LATEST_TAG for architecture $ARCH completed successfully."
 
 clear
 
