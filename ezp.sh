@@ -104,7 +104,7 @@ clear
 
 PACKAGE_NAME="luci-app-themeswitch"
 
-ARCH=$(opkg print-architecture | awk 'NR==2 {print $1}') 
+ARCH=$(uname -m)
 
 if [ -z "$ARCH" ]; then
     echo "Unsupported architecture."
