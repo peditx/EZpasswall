@@ -99,46 +99,6 @@ clear
 
 ### install themeswitch
 
-#!/bin/sh
-
-
-PACKAGE_NAME="luci-app-themeswitch"
-
-PED=$(uname -m)
-
-if [ -z "$PED" ]; then
-    echo "Unsupported architecture."
-    exit 1
-fi
-
-IPK_FILE="${PACKAGE_NAME}_1.0.4_${PED}.ipk"
-IPK_URL="https://github.com/peditx/luci-app-themeswitch/releases/download/13040956891/${IPK_FILE}"
-IPK_PATH="/tmp/$IPK_FILE"
-
-echo "Downloading $IPK_FILE..."
-wget -O "$IPK_PATH" "$IPK_URL"
-
-if [ $? -ne 0 ]; then
-    echo "Download failed: $IPK_URL"
-    exit 1
-fi
-
-echo "Installing $IPK_FILE..."
-opkg install "$IPK_PATH"
-
-if [ $? -ne 0 ]; then
-    echo "Installation failed."
-    rm -f "$IPK_PATH"
-    exit 1
-fi
-
-echo "Cleaning up..."
-rm -f "$IPK_PATH"
-
-echo "Installation of $PACKAGE_NAME version $VERSION for architecture $PED completed successfully."
-
-
-clear
 
 echo -e "${GREEN}New theme Installed ✅ OK${NC}"
 sleep 2
