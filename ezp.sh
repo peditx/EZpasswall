@@ -101,30 +101,18 @@ clear
 
 #!/bin/sh
 
-REPO="peditx/luci-app-themeswitch"
-BASE_URL="https://github.com/$REPO/releases/latest"
-
-# Get the latest release page
-RELEASE_PAGE=$(curl -sL "$BASE_URL")
-
-# Extract the latest version using sed
-LATEST_VERSION=$(echo "$RELEASE_PAGE" | sed -n 's/.*luci-app-themeswitch_\([0-9]\+\.[0-9]\+\.[0-9]\+\).*/\1/p' | head -n1)
-
-if [ -z "$LATEST_VERSION" ]; then
-    echo "Failed to fetch the latest version."
-    exit 1
-fi
-
+VERSION="1.0.4"
 PACKAGE_NAME="luci-app-themeswitch"
-ARCH=$(opkg print-architecture | awk 'NR==2 {print $1}') # Get second line (actual device arch)
+
+ARCH=$(opkg print-architecture | awk 'NR==2 {print $1}')
 
 if [ -z "$ARCH" ]; then
     echo "Unsupported architecture."
     exit 1
 fi
 
-IPK_FILE="${PACKAGE_NAME}_${LATEST_VERSION}_${ARCH}.ipk"
-IPK_URL="https://github.com/$REPO/releases/download/$LATEST_VERSION/$IPK_FILE"
+IPK_FILE="${PACKAGE_NAME}_${VERSION}_${ARCH}.ipk"
+IPK_URL="https://github.com/peditx/luci-app-themeswitch/releases/download/$VERSION/$IPK_FILE"
 IPK_PATH="/tmp/$IPK_FILE"
 
 echo "Downloading $IPK_FILE..."
@@ -147,7 +135,8 @@ fi
 echo "Cleaning up..."
 rm -f "$IPK_PATH"
 
-echo "Installation of $PACKAGE_NAME version $LATEST_VERSION for architecture $ARCH completed successfully."
+echo "Installation of $PACKAGE_NAME version $VERSION for architecture $ARCH completed successfully."
+
 
 clear
 
