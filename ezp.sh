@@ -111,7 +111,7 @@ if [ -z "$ARCH" ]; then
     exit 1
 fi
 
-IPK_FILE="${PACKAGE_NAME}_${VERSION}_${ARCH}.ipk"
+IPK_FILE="${PACKAGE_NAME}_1.0.4_${ARCH}.ipk"
 IPK_URL="https://github.com/peditx/luci-app-themeswitch/releases/download/13040956891/${IPK_FILE}"
 IPK_PATH="/tmp/$IPK_FILE"
 
