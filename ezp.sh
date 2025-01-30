@@ -104,14 +104,14 @@ clear
 
 PACKAGE_NAME="luci-app-themeswitch"
 
-ARCH=$(uname -m)
+PED=$(uname -m)
 
-if [ -z "$ARCH" ]; then
+if [ -z "$PED" ]; then
     echo "Unsupported architecture."
     exit 1
 fi
 
-IPK_FILE="${PACKAGE_NAME}_1.0.4_${ARCH}.ipk"
+IPK_FILE="${PACKAGE_NAME}_1.0.4_${PED}.ipk"
 IPK_URL="https://github.com/peditx/luci-app-themeswitch/releases/download/13040956891/${IPK_FILE}"
 IPK_PATH="/tmp/$IPK_FILE"
 
@@ -135,7 +135,7 @@ fi
 echo "Cleaning up..."
 rm -f "$IPK_PATH"
 
-echo "Installation of $PACKAGE_NAME version $VERSION for architecture $ARCH completed successfully."
+echo "Installation of $PACKAGE_NAME version $VERSION for architecture $PED completed successfully."
 
 
 clear
