@@ -99,41 +99,51 @@ clear
 
 ### install themeswitch
 
-#!/bin/sh
+REPO="peditx/luci-app-themeswitch"
+REPO_URL="https://github.com/$REPO/releases/latest"
 
-REPO_URL="https://github.com/peditx/luci-app-themeswitch/releases/latest/download"
+# Get the latest release version dynamically
+LATEST_VERSION=$(curl -sI "$REPO_URL" | grep -i location | awk -F '/' '{print $NF}' | tr -d '\r')
+
+if [ -z "$LATEST_VERSION" ]; then
+    echo "Failed to fetch the latest version."
+    exit 1
+fi
+
 PACKAGE_NAME="luci-app-themeswitch"
+ARCH=$(opkg print-architecture | awk 'NR==2 {print $1}') # Get second line (actual device arch)
 
-# Detect architecture
-ARCH=$(opkg print-architecture | awk 'NR==1{print $1}')
+if [ -z "$ARCH" ]; then
+    echo "Unsupported architecture."
+    exit 1
+fi
 
-# Check supported architectures
-case "$ARCH" in
-    aarch64_cortex-a53|aarch64_cortex-a72|aarch64_generic|arm_cortex-a15_neon-vfpv4|arm_cortex-a5_vfpv4|arm_cortex-a7|arm_cortex-a7_neon-vfpv4|arm_cortex-a8_vfpv3|arm_cortex-a9|arm_cortex-a9_neon|arm_cortex-a9_vfpv3-d16|mipsel_24kc|mipsel_74kc|mipsel_mips32|mips_24kc|mips_4kec|mips_mips32|x86_64)
-        ;;
-    *)
-        echo "Error: Unsupported architecture '$ARCH'"
-        exit 1
-        ;;
-esac
-
-# Download and install
-LATEST_VERSION=$(curl -sL https://api.github.com/repos/peditx/luci-app-themeswitch/releases/latest | grep '"tag_name":' | sed -E 's/.*"v?([^"]+)".*/\1/')
 IPK_FILE="${PACKAGE_NAME}_${LATEST_VERSION}_${ARCH}.ipk"
+IPK_URL="https://github.com/$REPO/releases/download/$LATEST_VERSION/$IPK_FILE"
+IPK_PATH="/tmp/$IPK_FILE"
 
-wget -qO "/tmp/$IPK_FILE" "$REPO_URL/$IPK_FILE" || {
-    echo "Download failed! Check URL: $REPO_URL/$IPK_FILE"
-    exit 1
-}
+echo "Downloading $IPK_FILE..."
+wget -O "$IPK_PATH" "$IPK_URL"
 
-opkg install "/tmp/$IPK_FILE" && {
-    rm -f "/tmp/$IPK_FILE"
-    echo "Successfully installed!"
-} || {
-    echo "Installation failed!"
-    rm -f "/tmp/$IPK_FILE"
+if [ $? -ne 0 ]; then
+    echo "Download failed: $IPK_URL"
     exit 1
-}
+fi
+
+echo "Installing $IPK_FILE..."
+opkg install "$IPK_PATH"
+
+if [ $? -ne 0 ]; then
+    echo "Installation failed."
+    rm -f "$IPK_PATH"
+    exit 1
+fi
+
+echo "Cleaning up..."
+rm -f "$IPK_PATH"
+
+echo "Installation of $PACKAGE_NAME version $LATEST_VERSION for architecture $ARCH completed successfully."
+
 
 clear
 
