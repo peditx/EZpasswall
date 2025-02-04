@@ -19,7 +19,7 @@
 ![Изображение установки](https://raw.githubusercontent.com/peditx/iranIPS/refs/heads/main/.files/lowspc/main/set3.png)
 
 ## Приложение для управления Android  
-[![Скачать для Android](https://img.shields.io/badge/Download%20for-Android-green?style=for-the-badge&logo=android)](https://github.com/peditx/EZpasswall/releases/tag/1.0.5)  
+[![Скачать для Android](https://img.shields.io/badge/Download%20for-Android-green?style=for-the-badge&logo=android)](https://github.com/peditx/EZpasswall/releases/tag/1.0.4)  
 
 ⚠ Вам нужен скрипт EZpasswall, чтобы использовать это приложение для управления вашим маршрутизатором.
 
