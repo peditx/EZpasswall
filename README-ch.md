@@ -19,7 +19,7 @@
 ![安装图片](https://raw.githubusercontent.com/peditx/iranIPS/refs/heads/main/.files/lowspc/main/set3.png)
 
 ## 安卓控制器应用程序  
-[![下载适用于安卓](https://img.shields.io/badge/Download%20for-Android-green?style=for-the-badge&logo=android)](https://github.com/peditx/EZpasswall/releases/tag/1.0.5)  
+[![下载适用于安卓](https://img.shields.io/badge/Download%20for-Android-green?style=for-the-badge&logo=android)](https://github.com/peditx/EZpasswall/releases/tag/1.0.4)  
 
 ⚠ 您需要 EZpasswall 脚本才能使用此应用程序来控制您的路由器。
 
