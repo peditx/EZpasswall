@@ -19,7 +19,7 @@
 ![Installation Image](https://raw.githubusercontent.com/peditx/iranIPS/refs/heads/main/.files/lowspc/main/set3.png)
 
 ## Android controller app
-[![Download for Android](https://img.shields.io/badge/Download%20for-Android-green?style=for-the-badge&logo=android)](https://github.com/peditx/EZpasswall/releases/tag/1.0.5)
+[![Download for Android](https://img.shields.io/badge/Download%20for-Android-green?style=for-the-badge&logo=android)](https://github.com/peditx/EZpasswall/releases/tag/1.0.4)
 
 ⚠ You need the EZpasswall script to use this app for controlling your router.
 
