@@ -98,8 +98,7 @@ sleep 5
 
 clear
 
-# Fetch the latest setup script from your GitHub repo
-rm -f setup.sh && wget https://raw.githubusercontent.com/MHKalantarian/EZpasswall/main/.files/core/setup.sh && chmod 777 setup.sh
+rm -f setup.sh && wget https://raw.githubusercontent.com/peditx/iranIPS/refs/heads/main/.files/core/setup.sh && chmod 777 setup.sh
 
 clear
 
