@@ -53,6 +53,21 @@ sleep 2
 opkg install whiptail
 sleep 2
 
+>/etc/banner
+
+echo "   
+ ______      _____   _      _    _     _____       
+(_____ \    (____ \ (_)_   \ \  / /   / ___ \      
+ _____) )___ _   \ \ _| |_  \ \/ /   | |   | | ___ 
+|  ____/ _  ) |   | | |  _)  )  (    | |   | |/___)
+| |   ( (/ /| |__/ /| | |__ / /\ \   | |___| |___ |
+|_|    \____)_____/ |_|\___)_/  \_\   \_____/(___/ 
+                                                   
+                                                     P A S S W A L L                                                                                         
+telegram : @PeDitX" >> /etc/banner
+
+sleep 1
+
 # Function to install a theme
 install_theme() {
   local REPO_NAME=$1
