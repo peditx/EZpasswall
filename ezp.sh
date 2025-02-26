@@ -186,7 +186,8 @@ fi
 rm -f "${tmp_dir}/${pkg_main}"
 
 ########
-
+clear
+sleep 2
 
 echo -e "${GREEN}New Mods Installed ✅ OK${NC}"
 sleep 2
