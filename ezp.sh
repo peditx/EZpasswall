@@ -220,7 +220,7 @@ echo -e "${MAGENTA}
 | |   ( (/ /| |__/ /| | |__ / /\ \   | |___| |___ |
 |_|    \____)_____/ |_|\___)_/  \_\   \_____/(___/ 
                                                    
-                                              E Z P A S S W A L L v2 ${NC}"
+                         E Z P A S S W A L L v2.2 ${NC}"
 EPOL=`cat /tmp/sysinfo/model`
 echo " - Model : $EPOL"
 echo " - System Ver : $DISTRIB_RELEASE"
