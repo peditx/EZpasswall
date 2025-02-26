@@ -37,7 +37,7 @@ echo -e "${MAGENTA}
 | |   ( (/ /| |__/ /| | |__ / /\ \   | |___| |___ |
 |_|    \____)_____/ |_|\___)_/  \_\   \_____/(___/ 
                                                    
-                            E Z P A S S W A L L v2 ${NC}"
+                            E Z P A S S W A L L v2.2 ${NC}"
 sleep 3
 
 # First Reform
