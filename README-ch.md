@@ -141,6 +141,6 @@ rm -f host.sh && wget -O host.sh https://raw.githubusercontent.com/peditx/EZpass
 - [V2Ray团队](https://github.com/v2ray)
 - [PeDitXrt](https://github.com/peditx/PeDitXrt)
 - [Mohamadreza Broujerdi](https://t.me/MR13_B)
-- [Mashkouk](https://github.com/mashkouk)
+- [Sia7ash](https://github.com/Sia7ash)
 
 [PeDitX](https://github.com/peditx) © 2024
